@@ -1,0 +1,16 @@
+/* Adaptações para dispositivos móveis */
+@media (max-width: 768px) {
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
