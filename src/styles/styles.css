@@ -9,7 +9,7 @@ header {
 }
 
 .menu-hamburguer {
-    display: none; /* Adapte para dispositivos móveis */
+    display: none;
     cursor: pointer;
 }
 
@@ -20,6 +20,22 @@ header {
     background-color: #fff;
     margin: 5px 0;
     transition: 0.4s;
+}
+
+.menu-hamburguer.active span:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+}
+
+.menu-hamburguer.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-hamburguer.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -10px;
 }
 
 .menu {
@@ -39,16 +55,15 @@ header {
 
 .encartes {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .encarte {
-    background-color: #f4f4f4;
-    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
-    border-radius: 5px;
-    width: 30%;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 main {
@@ -57,8 +72,12 @@ main {
     padding: 20px;
 }
 
-.coluna {
-    width: 45%;
+.coluna1 {
+    width: 50%;
+}
+
+.coluna1 {
+    width: 50%;
 }
 
 footer {
