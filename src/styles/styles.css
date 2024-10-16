@@ -68,20 +68,16 @@ header {
 
 main {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
     margin: 10px;
-    background-color: yellow;
 }
 
 .coluna1 {
-    background-color: red;
-    width: 50%;
+    flex: 1;
 }
 
 .coluna2 {
-    width: 50%;
-    background-color: blue;
+    flex: 1;
 }
 
 footer {
