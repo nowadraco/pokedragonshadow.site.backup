@@ -80,6 +80,14 @@ main {
     flex: 1;
 }
 
+.post {
+    flex: 3;
+}
+
+.link {
+    flex: 1;
+}
+
 footer {
     background-color: #333;
     color: #fff;
