@@ -64,11 +64,28 @@ header {
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.encarte p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
+}
+
+.encarte a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.encarte a img{
+    max-width: 200px;
 }
 
 main {
