@@ -104,7 +104,13 @@ main {
 }
 
 .coluna1 {
-    flex: 1;
+    flex: 2;
+    padding: 10px;
+    margin: 5px;
+}
+
+.coluna1 .Postagens{
+    border: 1px solid #ccc;
     padding: 10px;
     margin: 5px;
 }
@@ -113,10 +119,21 @@ main {
     flex: 1;
     padding: 10px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna2 section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .post {
-    flex: 3;
+    flex: 2;
 }
 
 .link {
