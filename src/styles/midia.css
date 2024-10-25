@@ -20,15 +20,15 @@
   }
 }
 
-@media (max-width: 500px) {
-  .encarte {
-    flex: 1 1 100%;
-  }
-}
-
 @media (max-width: 600px) {
   main {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .encarte {
+    flex: 1 1 100%;
   }
 }
