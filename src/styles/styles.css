@@ -99,8 +99,6 @@ header {
     
 main {
     display: flex;
-    padding: 20px;
-    margin: 10px;
 }
 
 .coluna1 {
