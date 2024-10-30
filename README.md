@@ -6,25 +6,25 @@
 Criar o site "PokeDragonShadow" funcional com uma página inicial, layout básico, e funcionalidades principais.
 
 ## Duração
-Duas semanas.
+ ?? semanas.
 
 ## Tarefas para a Sprint
 
 ### 1. Definir Requisitos
-- [ ] Especificar funcionalidades principais (home, blog, contatos, etc.)
+- [x] Especificar funcionalidades principais (home, blog, contatos, etc.)
 - [ ] Escolher o design e o tema do site
 
 ### 2. Configuração Inicial
-- [ ] Configurar ambiente de desenvolvimento (ex: VS Code, Git)
-- [ ] Configurar o repositório no GitHub
+- [x] Configurar ambiente de desenvolvimento (ex: VS Code, Git)
+- [x] Configurar o repositório no GitHub
 
 ### 3. Estruturação do Layout
-- [ ] Criar o esqueleto HTML do site
+- [x] Criar o esqueleto HTML do site
 - [ ] Definir a estrutura de pastas e arquivos
 
 ### 4. Design e Estilo
-- [ ] Criar um CSS reset
-- [ ] Desenvolver o estilo básico para cabeçalho, rodapé, e seções principais
+- [x] Criar um CSS reset
+- [x] Desenvolver o estilo básico para cabeçalho, rodapé, e seções principais
 
 ### 5. Funcionalidades Básicas
 - [ ] Implementar navegação
