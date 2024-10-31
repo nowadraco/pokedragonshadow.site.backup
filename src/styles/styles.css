@@ -7,7 +7,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .menu-hamburguer {
@@ -95,13 +95,16 @@ header {
 .encarte {
     flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .encarte h2 {
@@ -151,12 +154,16 @@ main {
 }
 
 .coluna1 .Postagens {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 .coluna1 .Postagens h2 {
@@ -181,27 +188,42 @@ main {
     margin: 2, 5px;
 }
 
-.coluna2,.coluna2-post {
+.coluna2 {
     padding: 5px;
     margin: 2px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
-.coluna2 section ,.coluna2-post section {
-    border: 1px solid #ccc;
+.coluna2-post {
+    padding: 5px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.coluna2 section,
+.coluna2-post section {
+    border: 2px solid #ccc;
     padding: 10px;
     margin: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
-.coluna2 img,.coluna2-post img {
+.coluna2 img,
+.coluna2-post img {
     max-width: 200px;
 }
 
-.coluna2 p,.coluna2-post p {
+.coluna2 p,
+.coluna2-post p {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     line-clamp: 4;
@@ -219,11 +241,11 @@ main {
 .coluna1-post {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center; /* Centraliza o texto dentro do post */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .titulo-post {
@@ -246,7 +268,7 @@ main {
 .conteudo-post {
     font-size: 1em;
     line-height: 1.6;
-    color: #666;
+    color: #2b2323;
     text-align: center;
 }
 
@@ -259,7 +281,8 @@ main {
     transition: color 0.3s;
 }
 
-.coluna2,.coluna2-post {
+.coluna2,
+.coluna2-post {
     flex: 1;
 }
 
