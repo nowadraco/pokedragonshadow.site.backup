@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f9
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .menu-hamburguer {
@@ -77,6 +79,11 @@ header {
     border-radius: 4px;
     margin-left: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #555;
 }
 
 .encartes {
@@ -103,9 +110,14 @@ header {
 }
 
 .encarte a img {
+    transition: transform 0.3s;
     max-width: 200px;
     padding: 5px;
     margin: 5px;
+}
+
+.encarte a img:hover {
+    transform: scale(1.05);
 }
 
 .encarte p {
@@ -122,6 +134,12 @@ header {
 .encarte a {
     text-decoration: none;
     color: inherit;
+    color: #0c0c0c;
+    transition: color 0.3s
+}
+
+.encarte a:hover {
+    color: #1f5d86;
 }
 
 main {
@@ -163,15 +181,14 @@ main {
     margin: 2, 5px;
 }
 
-.coluna2 {
-    flex: 1;
+.coluna2,.coluna2-post {
     padding: 5px;
     margin: 2px;
     display: flex;
     flex-direction: column;
 }
 
-.coluna2 section {
+.coluna2 section ,.coluna2-post section {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 5px;
@@ -180,11 +197,11 @@ main {
     align-items: center;
 }
 
-.coluna2 img{
+.coluna2 img,.coluna2-post img {
     max-width: 200px;
 }
 
-.coluna2 p {
+.coluna2 p,.coluna2-post p {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     line-clamp: 4;
@@ -195,11 +212,54 @@ main {
     margin: 2, 5px;
 }
 
-.post {
-    flex: 2;
+.coluna1-post {
+    flex: 3;
 }
 
-.link {
+.coluna1-post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center; /* Centraliza o texto dentro do post */
+}
+
+.titulo-post {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagem-post {
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-post {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    text-align: center;
+}
+
+.conteudo-post p {
+    margin-bottom: 10px;
+}
+
+.titulo-post:hover {
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+.coluna2,.coluna2-post {
     flex: 1;
 }
 
@@ -212,14 +272,17 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
 }
 
 footer p {
     margin-bottom: 10px;
+    margin: 5px 0;
 }
 
 footer p:first-child {
     font-weight: bold;
+    color: #fff;
 }
 
 .copyright {
