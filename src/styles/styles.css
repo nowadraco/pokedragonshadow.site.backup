@@ -153,7 +153,7 @@ main {
     flex: 2;
 }
 
-.coluna1 .Postagens {
+.coluna1 .Postagens a{
     border: 2px solid #ccc;
     padding: 10px;
     margin: 10px;
@@ -164,6 +164,17 @@ main {
     background-color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     text-align: justify;
+}
+
+.coluna1 .Postagens a{
+    text-decoration: none;
+    color: inherit;
+    color: #0c0c0c;
+    transition: color 0.3s
+}
+
+.coluna1 .Postagens a:hover {
+    color: #1f5d86;
 }
 
 .coluna1 .Postagens h2 {

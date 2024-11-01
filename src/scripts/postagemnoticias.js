@@ -1,21 +1,18 @@
 document.addEventListener('DOMContentLoaded', async (event) => {
     try {
+        console.log('DOMContentLoaded event triggered');
         const response = await fetch('src/noticias/');
         if (!response.ok) {
             throw new Error('Erro ao carregar o diretório de notícias.');
         }
+        console.log('Fetched noticias directory');
         const text = await response.text();
         const sortedLinks = parseAndSortLinks(text);
+        console.log('Sorted links:', sortedLinks);
 
-        await displayPost(sortedLinks[0], '#ultimaPostagem');
-        await displayPost(sortedLinks[1], '#penultimaPostagem');
-        await displayPost(sortedLinks[2], '#terceiraUltimaPostagem');
-        await displayPost(sortedLinks[3], '#quartaUltimaPostagem');
-        await displayPost(sortedLinks[4], '#quintaUltimaPostagem');
-        await displayPost(sortedLinks[5], '#sextaUltimaPostagem');
-        await displayPost(sortedLinks[6], '#setimaUltimaPostagem');
-        await displayPost(sortedLinks[7], '#oitavaUltimaPostagem');
-        await displayPost(sortedLinks[8], '#nonaUltimaPostagem');
+        await displayPost(sortedLinks[0], '#ultimaPostagem1');
+        await displayPost(sortedLinks[1], '#penultimaPostagem1');
+        await displayPost(sortedLinks[2], '#terceiraUltimaPostagem1');
 
         const randomIndex = Math.floor(Math.random() * sortedLinks.length);
         await displayPost(sortedLinks[randomIndex], '#postagemAleatoria');
@@ -25,9 +22,11 @@ document.addEventListener('DOMContentLoaded', async (event) => {
 });
 
 function parseAndSortLinks(text) {
+    console.log('Parsing and sorting links');
     const parser = new DOMParser();
     const doc = parser.parseFromString(text, 'text/html');
     const links = [...doc.querySelectorAll('a')];
+    console.log('Found links:', links);
 
     return links
         .map(link => link.getAttribute('href'))
@@ -43,7 +42,8 @@ function parseAndSortLinks(text) {
 
 async function displayPost(postLink, containerSelector) {
     try {
-        const postResponse = await fetch(postLink);
+        console.log('Displaying post:', postLink);
+        const postResponse = await fetch(`src/noticias/${postLink}`);
         if (!postResponse.ok) {
             throw new Error('Erro ao carregar o arquivo de post.');
         }
@@ -62,10 +62,11 @@ async function displayPost(postLink, containerSelector) {
         const firstImage = imageElement.src;
         const firstParagraph = paragraphElements[0].innerText;
         const secondParagraph = paragraphElements[1].innerText;
+        console.log('Post details:', { title, firstImage, firstParagraph, secondParagraph });
 
         const mainPageElement = document.createElement('div');
         mainPageElement.innerHTML = `
-            <a href="${postLink}">
+            <a href="src/noticias/${postLink}">
                 <h2>${title}</h2>
                 <img src="${firstImage}" alt="Post Image">
                 <p>${firstParagraph}</p>
@@ -74,6 +75,7 @@ async function displayPost(postLink, containerSelector) {
         `;
 
         document.querySelector(containerSelector).appendChild(mainPageElement);
+        console.log(`Post added to ${containerSelector}`);
     } catch (error) {
         console.error('Erro ao buscar o post:', error);
     }
