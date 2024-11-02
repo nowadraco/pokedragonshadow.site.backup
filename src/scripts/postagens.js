@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         await displayPost(sortedLinks[6], '#setimaUltimaPostagem');
         await displayPost(sortedLinks[7], '#oitavaUltimaPostagem');
         await displayPost(sortedLinks[8], '#nonaUltimaPostagem');
+        await displayPost(sortedLinks[9], '#decimaUltimaPostagem');
+        await displayPost(sortedLinks[10], '#decimaPrimeiraUltimaPostagem');
+        const decimaSegundaPostagem = sortedLinks[11] || sortedLinks[0];
+        await displayPost(decimaSegundaPostagem, '#decimaSegundaUltimaPostagem');
 
         const randomIndex = Math.floor(Math.random() * sortedLinks.length);
         await displayPost(sortedLinks[randomIndex], '#postagemAleatoria');
