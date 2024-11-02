@@ -1,4 +1,3 @@
-// Função para buscar os links das postagens
 const fetchPosts = async () => {
     const response = await fetch('/src/noticias');
     const postsHTML = await response.text();
@@ -6,15 +5,16 @@ const fetchPosts = async () => {
     const htmlDoc = parser.parseFromString(postsHTML, 'text/html');
     const links = Array.from(htmlDoc.querySelectorAll('a')).map(a => a.href);
 
-    return links.filter(link => link.match(/\d{4}-\d{2}-\d{2}-\d{2}-\d{2}.html$/));
+    return links.filter(link => link.match(/\d{4}-\d{2}-\d{2}-\d{2}-\d{2}.html$/))
+                .sort((a, b) => {
+                    const aParts = a.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/).slice(1);
+                    const bParts = b.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/).slice(1);
+                    const aDate = new Date(aParts[0], aParts[2] - 1, aParts[1], aParts[3], aParts[4]);
+                    const bDate = new Date(bParts[0], bParts[2] - 1, bParts[1], bParts[3], bParts[4]);
+                    return bDate - aDate;
+                });
 };
 
-// Função para ordenar os posts da mais nova para a mais antiga
-const sortPosts = (posts) => {
-    return posts.sort((a, b) => new Date(b.split('-').slice(0, 3).join('-')) - new Date(a.split('-').slice(0, 3).join('-')));
-};
-
-// Função para processar cada post individualmente
 const processPost = (post, index, ids) => {
     fetch(post)
         .then(response => response.text())
@@ -43,7 +43,6 @@ const processPost = (post, index, ids) => {
         .catch(error => console.error('Error:', error));
 };
 
-// Função para processar uma postagem aleatória
 const processRandomPost = (posts) => {
     const randomIndex = Math.floor(Math.random() * posts.length);
     const post = posts[randomIndex];
@@ -75,13 +74,11 @@ const processRandomPost = (posts) => {
         .catch(error => console.error('Error:', error));
 };
 
-// Função principal para buscar e processar os posts
 const processPosts = async () => {
     const posts = await fetchPosts();
-    const sortedPosts = sortPosts(posts);
     const ids = ['ultimaPostagem', 'penultimaPostagem', 'antepenultimaPostagem'];
 
-    sortedPosts.forEach((post, index) => {
+    posts.forEach((post, index) => {
         if (index >= ids.length) return;
         processPost(post, index, ids);
     });
