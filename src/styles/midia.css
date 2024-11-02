@@ -1,8 +1,12 @@
-@media (max-width: 800px) {
-  .encarte {
-    flex: 1 1 calc(50% - 20px);
+@media (max-width: 1200px) {
+  header {
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 12px;
   }
 }
+
 
 @media (max-width: 768px) {
   .menu-hamburguer {
@@ -43,5 +47,15 @@
 
   .imagem-post {
     max-width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  header img{
+    width: 50px;
+  }
+
+  .logo {
+    font-size: 6px;
   }
 }

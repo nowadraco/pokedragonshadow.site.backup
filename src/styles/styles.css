@@ -8,6 +8,45 @@ header {
     color: #fff;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #120e0e; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #f0f0f0, #b8b8b8, #d4d4d4);
+    border-radius: 10px;
+    display: inline-block;
+    border: 3px solid #b8b8b8;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    color: #ffffff; /* Cor branca no hover */
+    background: linear-gradient(135deg, #ffffff, #d4d4d4, #f0f0f0); /* Degradê mais brilhante */
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8); /* Sombra mais brilhante */
+    border-color: #ffffff; /* Borda branca */
+    background: linear-gradient(135deg, #9d9d9d, #777777, #adadad);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
 }
 
 .menu-hamburguer {
@@ -53,18 +92,6 @@ header {
 .menu li a {
     color: #fff;
     text-decoration: none;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    width: 100px;
-    height: auto;
-    border-radius: 8px;
 }
 
 .Pesquisar {
