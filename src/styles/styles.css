@@ -55,6 +55,18 @@ header {
     text-decoration: none;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
 .Pesquisar {
     display: none;
 }
