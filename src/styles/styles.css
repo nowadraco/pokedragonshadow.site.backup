@@ -49,6 +49,14 @@ header img {
     border-radius: 8px;
 }
 
+.hidden {
+    display: none;
+}
+
+.no-justify-space-between {
+    justify-content: center;
+}
+
 .menu-hamburguer {
     display: none;
     cursor: pointer;
