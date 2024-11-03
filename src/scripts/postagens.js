@@ -58,22 +58,22 @@ async function displayPost(postLink, containerSelector) {
         const imageElements = postDoc.querySelectorAll('img');
         const paragraphElements = postDoc.querySelectorAll('p');
 
-        if (!titleElement || imageElements.length < 2 || paragraphElements.length < 2) {
+        if (!titleElement || imageElements.length < 2 || paragraphElements.length < 3) {
             throw new Error('Elemento esperado não encontrado no post.');
         }
 
         const title = titleElement.innerText;
         const secondImage = imageElements[1].src;
-        const firstParagraph = paragraphElements[0].innerText;
         const secondParagraph = paragraphElements[1].innerText;
+        const thirdParagraph = paragraphElements[2].innerText;
 
         const mainPageElement = document.createElement('div');
         mainPageElement.innerHTML = `
             <a href="${postLink}">
                 <h2>${title}</h2>
                 <img src="${secondImage}" alt="Post Image">
-                <p>${firstParagraph}</p>
                 <p>${secondParagraph}</p>
+                <p>${thirdParagraph}</p>
             </a>
         `;
 
