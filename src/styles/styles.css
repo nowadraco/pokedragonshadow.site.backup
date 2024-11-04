@@ -340,6 +340,10 @@ main {
     margin-bottom: 10px;
 }
 
+.conteudo-post ul{
+    list-style-type: none;
+}
+
 .titulo-post:hover {
     color: #3498db;
     transition: color 0.3s;
