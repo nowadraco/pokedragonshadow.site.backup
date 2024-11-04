@@ -43,6 +43,12 @@ header {
     background: linear-gradient(135deg, #9d9d9d, #777777, #adadad);
 }
 
+.logo a{
+    text-decoration: none;
+    color: #120e0e; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
 header img {
     width: 100px;
     height: auto;
@@ -210,7 +216,7 @@ main {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-    text-align: justify;
+    text-align: center;
 }
 
 .coluna1 .Postagens a{
