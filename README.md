@@ -12,7 +12,7 @@ Criar o site "PokeDragonShadow" funcional com uma página inicial, layout básic
 
 ### 1. Definir Requisitos
 - [x] Especificar funcionalidades principais (home, blog, contatos, etc.)
-- [ ] Escolher o design e o tema do site
+- [x] Escolher o design e o tema do site
 
 ### 2. Configuração Inicial
 - [x] Configurar ambiente de desenvolvimento (ex: VS Code, Git)
@@ -20,24 +20,24 @@ Criar o site "PokeDragonShadow" funcional com uma página inicial, layout básic
 
 ### 3. Estruturação do Layout
 - [x] Criar o esqueleto HTML do site
-- [ ] Definir a estrutura de pastas e arquivos
+- [x] Definir a estrutura de pastas e arquivos
 
 ### 4. Design e Estilo
 - [x] Criar um CSS reset
 - [x] Desenvolver o estilo básico para cabeçalho, rodapé, e seções principais
 
 ### 5. Funcionalidades Básicas
-- [ ] Implementar navegação
-- [ ] Criar um sistema de grid para o layout
-- [ ] Adicionar conteúdos estáticos iniciais (ex: texto, imagens)
+- [x] Implementar navegação
+- [x] Criar um sistema de grid para o layout
+- [x] Adicionar conteúdos estáticos iniciais (ex: texto, imagens)
 
 ### 6. Blog
 - [ ] Configurar a seção do blog
-- [ ] Criar um sistema de posts dinâmicos (ex: JavaScript para carregar posts)
+- [x] Criar um sistema de posts dinâmicos (ex: JavaScript para carregar posts)
 
 ### 7. Revisão e Testes
-- [ ] Testar o site em diferentes navegadores
-- [ ] Testar o site em dispositivos móveis
+- [x] Testar o site em diferentes navegadores
+- [x] Testar o site em dispositivos móveis
 
 ## Revisão da Sprint
 - [ ] Apresentar o site funcional e coletar feedback
