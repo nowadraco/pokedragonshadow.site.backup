@@ -101,9 +101,9 @@ header {
     font-weight: 900;
     color: #120e0e;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5),
-    1px 1px 15px rgba(0, 4, 4, 0.7),
-    1px 1px 25px rgba(0, 5, 5, 0.7),
-    1px 1px 35px rgba(0, 8, 8, 0.7);
+        1px 1px 15px rgba(0, 4, 4, 0.7),
+        1px 1px 25px rgba(0, 5, 5, 0.7),
+        1px 1px 35px rgba(0, 8, 8, 0.7);
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 12px 20px;
@@ -166,6 +166,18 @@ header img {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag-ref {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 8px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: baseline;
+    font-weight: bold;
 }
 
 .encarte h2 {

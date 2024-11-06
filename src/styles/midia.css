@@ -6,6 +6,25 @@
   .logo {
     font-size: 12px;
   }
+
+  .titulo-post {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  .encarte h2 {
+    font-size: 1.1em;
+  }
+
+  .coluna1 .Postagens h2 {
+    font-size: 1.3em;
+  }
+
+  .coluna2 section h2,
+.coluna2-post section h2{
+  font-size: 1.1em;
+}
+
 }
 
 
@@ -26,6 +45,14 @@
 
   .imagem-post {
     max-width: 450px;
+  }
+
+  .encarte h2 {
+    font-size: 0.9em;
+  }
+
+  .coluna1 .Postagens h2 {
+    font-size: 0.9em;
   }
 
 }
@@ -62,7 +89,21 @@
 
   .coluna1 .Postagens img {
     max-width: 80%;
+  }
+
+  .encarte h2 {
+    font-size: 1.2em;
+  }
+
+  .coluna1 .Postagens h2 {
+    font-size: 1.2em;
+  }
+
+  .coluna2 section h2,
+.coluna2-post section h2{
+  font-size: 1.2em;
 }
+
 }
 
 @media (max-width: 500px) {
@@ -81,7 +122,8 @@
   }
 
   .logo {
-    font-size: 6px;
+    font-size: 10px;
+    padding: 6px 10px;
   }
 
   .coluna1-post {
@@ -100,6 +142,7 @@
     line-height: 1.4;
     margin-bottom: 5px;
   }
+  
 }
 
 @media (max-width: 215px) {
@@ -125,4 +168,5 @@
     line-height: 1.3;
     margin-bottom: 2px;
   }
+
 }

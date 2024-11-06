@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         }
         const text = await response.text();
         const sortedLinks = parseAndSortLinks(text);
-
         await displayPost(sortedLinks[0], '#ultimaPostagem');
         await displayPost(sortedLinks[1], '#penultimaPostagem');
         await displayPost(sortedLinks[2], '#terceiraUltimaPostagem');
@@ -57,12 +56,14 @@ async function displayPost(postLink, containerSelector) {
         const titleElement = postDoc.querySelector('.titulo-post');
         const imageElements = postDoc.querySelectorAll('img');
         const paragraphElements = postDoc.querySelectorAll('p');
+        const tagElements = postDoc.querySelectorAll('.tag');
 
-        if (!titleElement || imageElements.length < 2 || paragraphElements.length < 3) {
+        if (!titleElement || imageElements.length < 2 || paragraphElements.length < 3 || tagElements.length < 1) {
             throw new Error('Elemento esperado não encontrado no post.');
         }
 
         const title = titleElement.innerText;
+        const tag = tagElements[0].innerText; // Pega a primeira tag
         const secondImage = imageElements[1].src;
         const secondParagraph = paragraphElements[1].innerText;
         const thirdParagraph = paragraphElements[2].innerText;
@@ -70,6 +71,7 @@ async function displayPost(postLink, containerSelector) {
         const mainPageElement = document.createElement('div');
         mainPageElement.innerHTML = `
             <a href="${postLink}">
+                <span class="tag-ref">${tag}</span>
                 <h2>${title}</h2>
                 <img src="${secondImage}" alt="Post Image">
                 <p>${secondParagraph}</p>
@@ -77,7 +79,12 @@ async function displayPost(postLink, containerSelector) {
             </a>
         `;
 
-        document.querySelector(containerSelector).appendChild(mainPageElement);
+        const container = document.querySelector(containerSelector);
+        if (container) {
+            container.appendChild(mainPageElement);
+        } else {
+            console.error(`Elemento não encontrado: ${containerSelector}`);
+        }
     } catch (error) {
         console.error('Erro ao buscar o post:', error);
     }
