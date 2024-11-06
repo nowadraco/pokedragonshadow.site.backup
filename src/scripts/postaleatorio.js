@@ -7,22 +7,10 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         const text = await response.text();
         const sortedLinks = parseAndSortLinks(text);
 
-        await displayPost(sortedLinks[0], '#ultimaPostagem');
-        await displayPost(sortedLinks[1], '#penultimaPostagem');
-        await displayPost(sortedLinks[2], '#terceiraUltimaPostagem');
-        await displayPost(sortedLinks[3], '#quartaUltimaPostagem');
-        await displayPost(sortedLinks[4], '#quintaUltimaPostagem');
-        await displayPost(sortedLinks[5], '#sextaUltimaPostagem');
-        await displayPost(sortedLinks[6], '#setimaUltimaPostagem');
-        await displayPost(sortedLinks[7], '#oitavaUltimaPostagem');
-        await displayPost(sortedLinks[8], '#nonaUltimaPostagem');
-        await displayPost(sortedLinks[9], '#decimaUltimaPostagem');
-        await displayPost(sortedLinks[10], '#decimaPrimeiraUltimaPostagem');
-        const decimaSegundaPostagem = sortedLinks[11] || sortedLinks[0];
-        await displayPost(decimaSegundaPostagem, '#decimaSegundaUltimaPostagem');
-
-        const randomIndex = Math.floor(Math.random() * sortedLinks.length);
-        await displayPost(sortedLinks[randomIndex], '#postagemAleatoria');
+        const randomIndices = getRandomIndices(3, sortedLinks.length);
+        await displayPost(sortedLinks[randomIndices[0]], '#aleatorio1');
+        await displayPost(sortedLinks[randomIndices[1]], '#aleatorio2');
+        await displayPost(sortedLinks[randomIndices[2]], '#aleatorio3');
     } catch (error) {
         console.error('Erro ao buscar os posts:', error);
     }
@@ -43,6 +31,17 @@ function parseAndSortLinks(text) {
             const bDate = new Date(bParts[0], bParts[2] - 1, bParts[1], bParts[3], bParts[4]);
             return bDate - aDate;
         });
+}
+
+function getRandomIndices(count, max) {
+    const indices = [];
+    while (indices.length < count) {
+        const randomIndex = Math.floor(Math.random() * max);
+        if (!indices.includes(randomIndex)) {
+            indices.push(randomIndex);
+        }
+    }
+    return indices;
 }
 
 async function displayPost(postLink, containerSelector) {

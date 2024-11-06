@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', async (event) => {
     await updateLink('/src/paginas/gorocket/', 'a#ultimoPostGorocket');
     await updateLink('/src/paginas/reides/', 'a#ultimoPostReide');
+    await updateLink('/src/paginas/pesquisa-de-campo/', 'a#ultimoPostpesquisas');
 });
 
 async function updateLink(directory, selector) {
