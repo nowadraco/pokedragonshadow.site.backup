@@ -175,7 +175,7 @@ header img {
 
 .encarte a img {
     transition: transform 0.3s;
-    max-width: 200px;
+    max-width: 80%;
     padding: 5px;
     margin: 5px;
 }
@@ -257,7 +257,7 @@ main {
 }
 
 .coluna1 .Postagens img {
-    max-width: 200px;
+    max-width: 50%;
     padding: 5px;
     margin: 5px;
 }
@@ -304,7 +304,7 @@ main {
 
 .coluna2 img,
 .coluna2-post img {
-    max-width: 200px;
+    max-width: 80%;
 }
 
 .coluna2 p,
