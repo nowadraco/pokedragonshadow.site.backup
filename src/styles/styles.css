@@ -101,9 +101,9 @@ header {
     font-weight: 900;
     color: #120e0e;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5),
-    1px 1px 15px rgba(246, 4, 4, 0.7),
-    1px 1px 25px rgba(248, 5, 5, 0.7),
-    1px 1px 35px rgba(249, 8, 8, 0.7);
+    1px 1px 15px rgba(0, 4, 4, 0.7),
+    1px 1px 25px rgba(0, 5, 5, 0.7),
+    1px 1px 35px rgba(0, 8, 8, 0.7);
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 12px 20px;
