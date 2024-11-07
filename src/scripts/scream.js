@@ -1,0 +1,2 @@
+function mostrarResolucao() { var largura = window.innerWidth; var altura = window.innerHeight; document.getElementById("resolucao").innerText = "A resolução da janela é " + largura + "x" + altura + " pixels"; } // Chamar a função para mostrar a resolução quando a página é carregada mostrarResolucao();
+mostrarResolucao();
