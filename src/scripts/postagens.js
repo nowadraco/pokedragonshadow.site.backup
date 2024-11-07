@@ -71,7 +71,9 @@ async function displayPost(postLink, containerSelector) {
         const mainPageElement = document.createElement('div');
         mainPageElement.innerHTML = `
             <a href="${postLink}">
-                <span class="tag-ref">${tag}</span>
+                <div class="tags">
+                    <span class="tag-ref">${tag}</span>
+                </Div>
                 <h2>${title}</h2>
                 <img src="${secondImage}" alt="Post Image">
                 <p>${secondParagraph}</p>

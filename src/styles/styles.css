@@ -168,6 +168,10 @@ header img {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+.tags {
+    display: flex;
+}
+
 .tag-ref {
     background-color: rgba(51, 51, 51, 0.8);
     color: rgba(255, 255, 255, 0.8);
@@ -248,7 +252,6 @@ main {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
@@ -270,8 +273,9 @@ main {
 
 .coluna1 .Postagens img {
     max-width: 50%;
-    padding: 5px;
-    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .coluna1 .Postagens p {
