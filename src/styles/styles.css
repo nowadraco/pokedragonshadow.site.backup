@@ -467,3 +467,36 @@ footer p:first-child {
   font-size: 12px;
   color: #ccc;
 }
+
+/* Estilização para a lista */
+ul.selvagens {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove o padding padrão */
+  display: flex; /* Exibir os itens em linha */
+  flex-wrap: wrap; /* Permitir quebra de linha */
+  justify-content: space-around; /* Espaçamento entre itens */
+}
+
+/* Estilização para os itens da lista */
+li.Selvagem {
+  border: 2px solid #ccc; /* Borda cinza */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  margin: 10px; /* Espaçamento externo */
+  text-align: center; /* Centralizar texto */
+  width: 150px; /* Largura fixa para os itens */
+  transition: transform 0.2s; /* Transição suave para o hover */
+}
+
+/* Adicionar efeito hover aos itens da lista */
+li.Selvagem:hover {
+  transform: scale(1.05); /* Aumentar ligeiramente o tamanho no hover */
+  border-color: #4CAF50; /* Mudar a cor da borda no hover */
+}
+
+/* Estilização para as imagens */
+li.Selvagem img {
+  max-width: 100%; /* Ajustar largura máxima */
+  border-radius: 5px; /* Bordas arredondadas para as imagens */
+}
+
