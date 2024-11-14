@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Bulbasaur",
+        "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_001_00.png",
+        "tipo1": "Grama",
+        "tipo2": "Venenoso"
+    },
+    {
+        "id": 2,
+        "nome": "Ivysaur",
+        "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_002_00.png",
+        "tipo1": "Grama",
+        "tipo2": "Venenoso"
+    },
+    {
+        "id": 3,
+        "nome": "Venusaur",
+        "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_003_00.png",
+        "tipo1": "Grama",
+        "tipo2": "Venenoso"
+    }
+]
