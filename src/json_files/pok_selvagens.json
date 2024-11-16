@@ -5070,203 +5070,203 @@
 {
     "id": 725,
 "nome": "Litten",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm725.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm725.icon.png",
     "tipo1": "Fogo",
 "tipo2": "null"
 },
 {
 "id": 726,
 "nome": "Torracat",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm726.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm726.icon.png",
     "tipo1": "Fogo",
 "tipo2": "null"
 },
 {
 "id": 727,
 "nome": "Incineroar",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm727.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm727.icon.png",
     "tipo1": "Fogo",
 "tipo2": "Sombrio"
 },
 {
 "id": 728,
 "nome": "Popplio",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm728.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm728.icon.png",
     "tipo1": "Água",
 "tipo2": "null"
 },
 {
 "id": 729,
 "nome": "Brionne",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm729.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm729.icon.png",
     "tipo1": "Água",
 "tipo2": "null"
 },
 {
 "id": 730,
 "nome": "Primarina",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm730.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm730.icon.png",
     "tipo1": "Água",
 "tipo2": "Fada"
 },
 {
 "id": 731,
 "nome": "Pikipek",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm731.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm731.icon.png",
     "tipo1": "Normal",
 "tipo2": "Voador"
 },
 {
 "id": 732,
 "nome": "Trumbeak",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm732.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm732.icon.png",
     "tipo1": "Normal",
 "tipo2": "Voador"
 },
 {
 "id": 733,
 "nome": "Toucannon",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm733.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm733.icon.png",
     "tipo1": "Normal",
 "tipo2": "Voador"
 },
 {
 "id": 734,
 "nome": "Yungoos",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm734.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm734.icon.png",
     "tipo1": "Normal",
 "tipo2": "null"
 },
 {
 "id": 735,
 "nome": "Gumshoos",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm735.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm735.icon.png",
     "tipo1": "Normal",
 "tipo2": "null"
 },
 {
 "id": 736,
 "nome": "Grubbin",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm736.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm736.icon.png",
     "tipo1": "Inseto",
 "tipo2": "null"
 },
 {
 "id": 737,
 "nome": "Charjabug",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm737.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm737.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Elétrico"
 },
 {
 "id": 738,
 "nome": "Vikavolt",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm738.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm738.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Elétrico"
 },
 {
 "id": 739,
 "nome": "Crabrawler",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm739.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm739.icon.png",
     "tipo1": "Lutador",
 "tipo2": "null"
 },
 {
 "id": 740,
 "nome": "Crabominable",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm740.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm740.icon.png",
     "tipo1": "Lutador",
 "tipo2": "Gelo"
 },
 {
 "id": 741,
 "nome": "Oricorio",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm741.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm741.fBAILE.icon.png",
     "tipo1": "Voador",
 "tipo2": "null"
 },
 {
 "id": 742,
 "nome": "Cutiefly",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm742.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm742.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Fada"
 },
 {
 "id": 743,
 "nome": "Ribombee",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm743.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm743.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Fada"
 },
 {
 "id": 744,
 "nome": "Rockruff",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm744.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm744.icon.png",
     "tipo1": "Rocha",
 "tipo2": "null"
 },
 {
 "id": 745,
 "nome": "Lycanroc",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm745.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm745.fDUSK.icon.png",
     "tipo1": "Rocha",
 "tipo2": "null"
 },
 {
 "id": 746,
 "nome": "Wishiwashi",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm746.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm746.fSCHOOL.icon.png",
     "tipo1": "Água",
 "tipo2": "null"
 },
 {
 "id": 747,
 "nome": "Mareanie",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm747.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm747.icon.png",
     "tipo1": "Venenoso",
 "tipo2": "Água"
 },
 {
 "id": 748,
 "nome": "Toxapex",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm748.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm748.icon.png",
     "tipo1": "Venenoso",
 "tipo2": "Água"
 },
 {
 "id": 749,
 "nome": "Mudbray",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm749.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm749.icon.png",
     "tipo1": "Terra",
 "tipo2": "null"
 },
 {
 "id": 750,
 "nome": "Mudsdale",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm750.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm750.icon.png",
     "tipo1": "Terra",
 "tipo2": "null"
 },
 {
 "id": 751,
 "nome": "Dewpider",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm751.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm751.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Água"
 },
 {
 "id": 752,
 "nome": "Araquanid",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm752.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm752.icon.png",
     "tipo1": "Inseto",
 "tipo2": "Água"
 },
 {
 "id": 753,
 "nome": "Fomantis",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256Addressable%20Assets/pm753.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm753.icon.png",
     "tipo1": "Grama",
 "tipo2": "null"
 },
@@ -5938,7 +5938,7 @@
 {
 "id": 849,
 "nome": "Toxtricity",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm849.icon.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm849.fAMPED.icon.png",
 "tipo1": "Elétrico",
 "tipo2": "Venenoso"
 },
