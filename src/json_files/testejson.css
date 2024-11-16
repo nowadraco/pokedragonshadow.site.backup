@@ -29,8 +29,7 @@ body {
 }
 
 .pokemon img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
 }
 
 .pagination {
