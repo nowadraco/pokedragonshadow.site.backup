@@ -14,7 +14,7 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-    max-width: 1200px; /* Ajuste conforme necessário */
+    max-width: 1200px;
     overflow-y: auto;
     margin-bottom: 20px;
 }
@@ -40,4 +40,29 @@ body {
 button:disabled {
     background-color: #ddd;
     cursor: not-allowed;
+}
+
+/* Exemplo de cores para tipos */
+.tipo-normal { background-color: #A8A77A; }
+.tipo-fogo { background-color: #FF4500; }
+.tipo-agua { background-color: #1E90FF; }
+.tipo-eletrico { background-color: #F7D02C; }
+.tipo-grama { background-color: #32CD32; }
+.tipo-gelo { background-color: #96D9D6; }
+.tipo-lutador { background-color: #C22E28; }
+.tipo-venenoso { background-color: #A33EA1; }
+.tipo-terrestre { background-color: #E2BF65; }
+.tipo-voador { background-color: #A98FF3; }
+.tipo-psiquico { background-color: #F95587; }
+.tipo-inseto { background-color: #A6B91A; }
+.tipo-pedra { background-color: #B6A136; }
+.tipo-fantasma { background-color: #735797; }
+.tipo-dragao { background-color: #6F35FC; }
+.tipo-sombrio { background-color: #705746; }
+.tipo-aco { background-color: #B7B7CE; }
+.tipo-fada { background-color: #D685AD; }
+
+/* Estilos para combinar dois tipos */
+.combinacao {
+  background: linear-gradient(to right, var(--tipo1-color), var(--tipo2-color));
 }

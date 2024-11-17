@@ -185,14 +185,14 @@
 "id": 27,
 "nome": "Sandshrew",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_027_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 28,
 "nome": "Sandslash",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_028_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -214,7 +214,7 @@
 "nome": "Nidoqueen",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_031_00.png",
 "tipo1": "Venenoso",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 32,
@@ -235,7 +235,7 @@
 "nome": "Nidoking",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_034_00.png",
 "tipo1": "Venenoso",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 35,
@@ -346,14 +346,14 @@
 "id": 50,
 "nome": "Diglett",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_050_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 51,
 "nome": "Dugtrio",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_051_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -514,22 +514,22 @@
 "id": 74,
 "nome": "Geodude",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_074_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 75,
 "nome": "Graveler",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_075_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 76,
 "nome": "Golem",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_076_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 77,
@@ -661,8 +661,8 @@
 "id": 95,
 "nome": "Onix",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_095_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 96,
@@ -724,14 +724,14 @@
 "id": 104,
 "nome": "Cubone",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_104_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 105,
 "nome": "Marowak",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_105_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -773,15 +773,15 @@
 "id": 111,
 "nome": "Rhyhorn",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_111_00.png",
-"tipo1": "Terra",
-"tipo2": "Rocha"
+"tipo1": "Terrestre",
+"tipo2": "Pedra"
 },
 {
 "id": 112,
 "nome": "Rhydon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_112_00.png",
-"tipo1": "Terra",
-"tipo2": "Rocha"
+"tipo1": "Terrestre",
+"tipo2": "Pedra"
 },
 {
 "id": 113,
@@ -962,35 +962,35 @@
 "id": 138,
 "nome": "Omanyte",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_138_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
 "id": 139,
 "nome": "Omastar",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_139_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
 "id": 140,
 "nome": "Kabuto",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_140_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
 "id": 141,
 "nome": "Kabutops",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_141_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
 "id": 142,
 "nome": "Aerodactyl",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_142_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Voador"
 },
 {
@@ -1291,7 +1291,7 @@
 "id": 185,
 "nome": "Sudowoodo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_185_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -1355,14 +1355,14 @@
 "nome": "Wooper",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_194_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 195,
 "nome": "Quagsire",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_195_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 196,
@@ -1445,7 +1445,7 @@
 "id": 207,
 "nome": "Gligar",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_207_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Voador"
 },
 {
@@ -1453,7 +1453,7 @@
 "nome": "Steelix",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_208_00.png",
 "tipo1": "Aço",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 209,
@@ -1488,7 +1488,7 @@
 "nome": "Shuckle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_213_00.png",
 "tipo1": "Inseto",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 214,
@@ -1530,28 +1530,28 @@
 "nome": "Magcargo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_219_00.png",
 "tipo1": "Fogo",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 220,
 "nome": "Swinub",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_220_00.png",
 "tipo1": "Gelo",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 221,
 "nome": "Piloswine",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_221_00.png",
 "tipo1": "Gelo",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 222,
 "nome": "Corsola",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_222_00.png",
 "tipo1": "Água",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 223,
@@ -1613,14 +1613,14 @@
 "id": 231,
 "nome": "Phanpy",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_231_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 232,
 "nome": "Donphan",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_232_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -1718,21 +1718,21 @@
 "id": 246,
 "nome": "Larvitar",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_246_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 247,
 "nome": "Pupitar",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_247_00.png",
-"tipo1": "Rocha",
-"tipo2": "Terra"
+"tipo1": "Pedra",
+"tipo2": "Terrestre"
 },
 {
 "id": 248,
 "nome": "Tyranitar",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_248_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Sombrio"
 },
 {
@@ -1810,14 +1810,14 @@
 "nome": "Marshtomp",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_259_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 260,
 "nome": "Swampert",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_260_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 261,
@@ -2027,7 +2027,7 @@
 "nome": "Nincada",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_290_00.png",
 "tipo1": "Inseto",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 291,
@@ -2089,7 +2089,7 @@
 "id": 299,
 "nome": "Nosepass",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_299_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -2125,21 +2125,21 @@
 "nome": "Aron",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_304_00.png",
 "tipo1": "Aço",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 305,
 "nome": "Lairon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_305_00.png",
 "tipo1": "Aço",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 306,
 "nome": "Aggron",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_306_00.png",
 "tipo1": "Aço",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 307,
@@ -2251,14 +2251,14 @@
 "nome": "Numel",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_322_00.png",
 "tipo1": "Fogo",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 323,
 "nome": "Camerupt",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_323_00.png",
 "tipo1": "Fogo",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 324,
@@ -2292,21 +2292,21 @@
 "id": 328,
 "nome": "Trapinch",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_328_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 329,
 "nome": "Vibrava",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_329_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Dragão"
 },
 {
 "id": 330,
 "nome": "Flygon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_330_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Dragão"
 },
 {
@@ -2355,14 +2355,14 @@
 "id": 337,
 "nome": "Lunatone",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_337_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Psíquico"
 },
 {
 "id": 338,
 "nome": "Solrock",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_338_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Psíquico"
 },
 {
@@ -2370,14 +2370,14 @@
 "nome": "Barboach",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_339_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 340,
 "nome": "Whiscash",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_340_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 341,
@@ -2397,42 +2397,42 @@
 "id": 343,
 "nome": "Baltoy",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_343_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Psíquico"
 },
 {
 "id": 344,
 "nome": "Claydol",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_344_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Psíquico"
 },
 {
 "id": 345,
 "nome": "Lileep",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_345_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Grama"
 },
 {
 "id": 346,
 "nome": "Cradily",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_346_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Grama"
 },
 {
 "id": 347,
 "nome": "Anorith",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_347_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Inseto"
 },
 {
 "id": 348,
 "nome": "Armaldo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_348_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Inseto"
 },
 {
@@ -2580,7 +2580,7 @@
 "nome": "Relicanth",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_369_00.png",
 "tipo1": "Água",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 370,
@@ -2635,7 +2635,7 @@
 "id": 377,
 "nome": "Regirock",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_377_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -2677,7 +2677,7 @@
 "id": 383,
 "nome": "Groudon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_383_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -2717,10 +2717,10 @@
 },
 {
 "id": 389,
-"nome": "Torterra",
+"nome": "TorTerrestre",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_389_00.png",
 "tipo1": "Grama",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 390,
@@ -2852,28 +2852,28 @@
 "id": 408,
 "nome": "Cranidos",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_408_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 409,
 "nome": "Rampardos",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_409_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 410,
 "nome": "Shieldon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_410_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Aço"
 },
 {
 "id": 411,
 "nome": "Bastiodon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_411_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Aço"
 },
 {
@@ -2958,7 +2958,7 @@
 "nome": "Gastrodon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_423_11.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 424,
@@ -3062,7 +3062,7 @@
 "id": 438,
 "nome": "Bonsly",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_438_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -3098,21 +3098,21 @@
 "nome": "Gible",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_443_00.png",
 "tipo1": "Dragão",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 444,
 "nome": "Gabite",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_444_00.png",
 "tipo1": "Dragão",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 445,
 "nome": "Garchomp",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_445_00.png",
 "tipo1": "Dragão",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 446,
@@ -3139,14 +3139,14 @@
 "id": 449,
 "nome": "Hippopotas",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_449_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 450,
 "nome": "Hippowdon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_450_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -3244,8 +3244,8 @@
 "id": 464,
 "nome": "Rhyperior",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_464_00.png",
-"tipo1": "Terra",
-"tipo2": "Rocha"
+"tipo1": "Terrestre",
+"tipo2": "Pedra"
 },
 {
 "id": 465,
@@ -3300,7 +3300,7 @@
 "id": 472,
 "nome": "Gliscor",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_472_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Voador"
 },
 {
@@ -3308,7 +3308,7 @@
 "nome": "Mamoswine",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_473_00.png",
 "tipo1": "Gelo",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 474,
@@ -3328,7 +3328,7 @@
 "id": 476,
 "nome": "Probopass",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_476_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Aço"
 },
 {
@@ -3664,21 +3664,21 @@
 "id": 524,
 "nome": "Roggenrola",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_524_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 525,
 "nome": "Boldore",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_525_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 526,
 "nome": "Gigalith",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_526_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -3699,14 +3699,14 @@
 "id": 529,
 "nome": "Drilbur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_529_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 530,
 "nome": "Excadrill",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_530_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Aço"
 },
 {
@@ -3749,14 +3749,14 @@
 "nome": "Palpitoad",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_536_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 537,
 "nome": "Seismitoad",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_537_00.png",
 "tipo1": "Água",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 538,
@@ -3853,21 +3853,21 @@
 "id": 551,
 "nome": "Sandile",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_551_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Sombrio"
 },
 {
 "id": 552,
 "nome": "Krokorok",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_552_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Sombrio"
 },
 {
 "id": 553,
 "nome": "Krookodile",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_553_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Sombrio"
 },
 {
@@ -3896,14 +3896,14 @@
 "nome": "Dwebble",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_557_00.png",
 "tipo1": "Inseto",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 558,
 "nome": "Crustle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_558_00.png",
 "tipo1": "Inseto",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 559,
@@ -3945,27 +3945,27 @@
 "nome": "Tirtouga",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_564_00.png",
 "tipo1": "Água",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 565,
 "nome": "Carracosta",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_565_00.png",
 "tipo1": "Água",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 566,
 "nome": "Archen",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_566_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Voador"
 },
 {
 "id": 567,
 "nome": "Archeops",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_567_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Voador"
 },
 {
@@ -4322,7 +4322,7 @@
 "id": 618,
 "nome": "Stunfisk",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_618_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Elétrico"
 },
 {
@@ -4350,14 +4350,14 @@
 "id": 622,
 "nome": "Golett",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_622_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Fantasma"
 },
 {
 "id": 623,
 "nome": "Golurk",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_623_00.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Fantasma"
 },
 {
@@ -4467,9 +4467,9 @@
 },
 {
 "id": 639,
-"nome": "Terrakion",
+"nome": "Terrestrekion",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_639_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Lutador"
 },
 {
@@ -4511,7 +4511,7 @@
 "id": 645,
 "nome": "Landorus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_645_11.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Voador"
 },
 {
@@ -4617,7 +4617,7 @@
 "nome": "Diggersby",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_660_00.png",
 "tipo1": "Normal",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 661,
@@ -4812,14 +4812,14 @@
 "id": 688,
 "nome": "Binacle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_688_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
 "id": 689,
 "nome": "Barbaracle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_689_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Água"
 },
 {
@@ -4868,28 +4868,28 @@
 "id": 696,
 "nome": "Tyrunt",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_696_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Dragão"
 },
 {
 "id": 697,
 "nome": "Tyrantrum",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm697.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Dragão"
 },
 {
 "id": 698,
 "nome": "Amaura",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_698_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Gelo"
 },
 {
 "id": 699,
 "nome": "Aurorus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_699_00.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Gelo"
 },
 {
@@ -4917,7 +4917,7 @@
 "id": 703,
 "nome": "Carbink",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm703.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Fada"
 },
 {
@@ -5023,13 +5023,13 @@
 "nome": "Zygarde",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_718_00.png",
 "tipo1": "Dragão",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 719,
 "nome": "Diancie",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm719.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Fada"
 },
 {
@@ -5204,14 +5204,14 @@
 "id": 744,
 "nome": "Rockruff",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm744.icon.png",
-    "tipo1": "Rocha",
+    "tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 745,
 "nome": "Lycanroc",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm745.fDUSK.icon.png",
-    "tipo1": "Rocha",
+    "tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -5239,14 +5239,14 @@
 "id": 749,
 "nome": "Mudbray",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm749.icon.png",
-    "tipo1": "Terra",
+    "tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 750,
 "nome": "Mudsdale",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm750.icon.png",
-    "tipo1": "Terra",
+    "tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -5380,14 +5380,14 @@
 "nome": "Sandygast",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm769.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 770,
 "nome": "Palossand",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm770.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 771,
@@ -5414,7 +5414,7 @@
 "id": 774,
 "nome": "Minior",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm774.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Voador"
 },
 {
@@ -5547,7 +5547,7 @@
 "id": 793,
 "nome": "Nihilego",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm793.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Venenoso"
 },
 {
@@ -5631,7 +5631,7 @@
 "id": 805,
 "nome": "Stakataka",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm805.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Aço"
 },
 {
@@ -5835,7 +5835,7 @@
 "nome": "Drednaw",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm834.icon.png",
 "tipo1": "Água",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 835,
@@ -5855,21 +5855,21 @@
 "id": 837,
 "nome": "Rolycoly",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm837.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 838,
 "nome": "Carkol",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm838.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Fogo"
 },
 {
 "id": 839,
 "nome": "Coalossal",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm839.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Fogo"
 },
 {
@@ -5897,14 +5897,14 @@
 "id": 843,
 "nome": "Silicobra",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm843.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
 "id": 844,
 "nome": "Sandaconda",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm844.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "null"
 },
 {
@@ -6065,7 +6065,7 @@
 "id": 867,
 "nome": "Runerigus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm867.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Fantasma"
 },
 {
@@ -6114,7 +6114,7 @@
 "id": 874,
 "nome": "Stonjourner",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm874.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -6297,13 +6297,13 @@
 "nome": "Kleavor",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm900.icon.png",
 "tipo1": "Inseto",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 901,
 "nome": "Ursaluna",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm901.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Normal"
 },
 {
@@ -6520,21 +6520,21 @@
 "id": 932,
 "nome": "Nacli",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm932.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 933,
 "nome": "Naclstack",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm933.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
 "id": 934,
 "nome": "Garganacl",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm934.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -6633,20 +6633,20 @@
 "nome": "Toedscool",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm948.icon.png",
 "tipo1": "Grama",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 949,
 "nome": "Toedscruel",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm949.icon.png",
 "tipo1": "Grama",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 950,
 "nome": "Klawf",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm950.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "null"
 },
 {
@@ -6780,14 +6780,14 @@
 "nome": "Glimmet",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm969.icon.png",
 "tipo1": "Venenoso",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 970,
 "nome": "Glimmora",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm970.icon.png",
 "tipo1": "Venenoso",
-"tipo2": "Rocha"
+"tipo2": "Pedra"
 },
 {
 "id": 971,
@@ -6857,7 +6857,7 @@
 "nome": "Clodsire",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm980.icon.png",
 "tipo1": "Venenoso",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 981,
@@ -6884,7 +6884,7 @@
 "id": 984,
 "nome": "Great Tusk",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm984.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Lutador"
 },
 {
@@ -6920,13 +6920,13 @@
 "nome": "Sandy Shocks",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm989.icon.png",
 "tipo1": "Elétrico",
-"tipo2": "Terra"
+"tipo2": "Terrestre"
 },
 {
 "id": 990,
 "nome": "Iron Treads",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm990.icon.png",
-"tipo1": "Terra",
+"tipo1": "Terrestre",
 "tipo2": "Aço"
 },
 {
@@ -6961,7 +6961,7 @@
 "id": 995,
 "nome": "Iron Thorns",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm995.icon.png",
-"tipo1": "Rocha",
+"tipo1": "Pedra",
 "tipo2": "Elétrico"
 },
 {
