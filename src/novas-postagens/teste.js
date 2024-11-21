@@ -43,7 +43,7 @@ async function preencherLista() {
         const pokemon = buscarPokemon(pokemons, nome);
         if (pokemon) {
             const novoItem = criarElementoPokemon(pokemon);
-            lista.replaceChild(novoItem, item);
+            item.replaceWith(novoItem);
         } else {
             console.log(`Pokémon ${nome} não encontrado`);
         }
