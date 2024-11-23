@@ -28,13 +28,13 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
 
-    // Alternar a imagem a cada 5 segundos se o nome do Pokémon contiver '*'
-    if (pokemon.nome.includes('*') && shinyPokemon) {
+    // Alternar a imagem a cada 5 segundos se existir uma versão shiny
+    if (shinyPokemon) {
         let showShiny = false;
         setInterval(() => {
             img.src = showShiny ? shinyPokemon.img : pokemon.img;
             showShiny = !showShiny;
-        }, 5000);
+        }, 2000);
     }
 
     return li;
@@ -56,15 +56,17 @@ async function preencherLista() {
     const itens = lista.querySelectorAll('li');
 
     itens.forEach(item => {
-        const nome = item.textContent.trim();
+        let nome = item.textContent.trim();
         const pokemon = buscarPokemon(pokemons, nome);
         const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
-        
+
+        if (shinyPokemon && !nome.includes('*')) {
+            nome += '*';
+        }
+
         if (pokemon) {
             const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
-            if (nome.includes('*')) {
-                novoItem.lastChild.nodeValue = ` ${nome}`; // Mantém o nome com *
-            }
+            novoItem.lastChild.nodeValue = ` ${nome}`; // Atualiza o nome com *
             item.replaceWith(novoItem);
         } else {
             console.log(`Pokémon ${nome} não encontrado`);
