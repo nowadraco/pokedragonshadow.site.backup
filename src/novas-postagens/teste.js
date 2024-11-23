@@ -28,15 +28,6 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
 
-    // Alternar a imagem a cada 5 segundos se o nome do Pokémon contiver '*'
-    if (pokemon.nome.includes('*') && shinyPokemon) {
-        let showShiny = false;
-        setInterval(() => {
-            img.src = showShiny ? shinyPokemon.img : pokemon.img;
-            showShiny = !showShiny;
-        }, 5000);
-    }
-
     return li;
 }
 
@@ -50,6 +41,25 @@ function buscarShinyPokemon(shinyPokemons, nome) {
     return shinyPokemons.find(shiny => shiny.nome.toLowerCase() === nomeNormalizado);
 }
 
+function alternarImagens(pokemons, shinyPokemons) {
+    const itens = document.querySelectorAll('#pokemon-list li');
+
+    itens.forEach(item => {
+        const nome = item.textContent.trim();
+        const img = item.querySelector('img');
+        const pokemon = buscarPokemon(pokemons, nome);
+        const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
+
+        if (pokemon && shinyPokemon && nome.includes('*')) {
+            let showShiny = false;
+            setInterval(() => {
+                img.src = showShiny ? shinyPokemon.img : pokemon.img;
+                showShiny = !showShiny;
+            }, 2000);
+        }
+    });
+}
+
 async function preencherLista() {
     const { pokemons, shinyPokemons } = await carregarPokemons();
     const lista = document.getElementById('pokemon-list');
@@ -59,7 +69,7 @@ async function preencherLista() {
         const nome = item.textContent.trim();
         const pokemon = buscarPokemon(pokemons, nome);
         const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
-        
+
         if (pokemon) {
             const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
             if (nome.includes('*')) {
@@ -70,6 +80,9 @@ async function preencherLista() {
             console.log(`Pokémon ${nome} não encontrado`);
         }
     });
+
+    // Chamar a função para alternar imagens após preencher a lista
+    alternarImagens(pokemons, shinyPokemons);
 }
 
 // Preencher a lista ao carregar a página
