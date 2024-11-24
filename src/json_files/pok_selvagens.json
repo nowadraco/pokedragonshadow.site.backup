@@ -525,6 +525,13 @@
 "tipo2": "Terrestre"
 },
 {
+"id": 75,
+"nome": "Graveler de Aloloa",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_075_61.png",
+"tipo1": "Pedra",
+"tipo2": "Elétrico"
+},
+{
 "id": 76,
 "nome": "Golem",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_076_00.png",

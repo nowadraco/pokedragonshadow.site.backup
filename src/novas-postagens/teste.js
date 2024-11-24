@@ -11,6 +11,30 @@ async function carregarPokemons() {
     }
 }
 
+function getTypeColor(tipo) {
+    switch (tipo.toLowerCase()) {
+        case 'normal': return '#A8A77A';
+        case 'fogo': return '#FF4500';
+        case 'água': return '#1E90FF';
+        case 'elétrico': return '#F7D02C';
+        case 'grama': return '#32CD32';
+        case 'gelo': return '#96D9D6';
+        case 'lutador': return '#C22E28';
+        case 'venenoso': return '#A33EA1';
+        case 'terrestre': return '#E2BF65';
+        case 'voador': return '#A98FF3';
+        case 'psíquico': return '#F95587';
+        case 'inseto': return '#A6B91A';
+        case 'pedra': return '#B6A136';
+        case 'fantasma': return '#735797';
+        case 'dragão': return '#6F35FC';
+        case 'sombrio': return '#705746';
+        case 'aço': return '#B7B7CE';
+        case 'fada': return '#D685AD';
+        default: return '#FFFFFF'; // Cor padrão
+    }
+}
+
 function criarElementoPokemon(pokemon, shinyPokemon) {
     const li = document.createElement('li');
 
@@ -21,9 +45,19 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     }
     li.className = classList;
 
+    // Define a cor de fundo baseada nos tipos
+    if (pokemon.tipo2 && pokemon.tipo2.toLowerCase() !== 'null') {
+        // Combina duas cores para dois tipos
+        li.style.background = `linear-gradient(to right, ${getTypeColor(pokemon.tipo1)}, ${getTypeColor(pokemon.tipo2)})`;
+    } else {
+        // Usa uma única cor para um tipo
+        li.style.backgroundColor = getTypeColor(pokemon.tipo1);
+    }
+
     const img = document.createElement('img');
     img.src = pokemon.img;
     img.alt = pokemon.nome;
+    img.classList.add('imgSelvagem'); // Adiciona a classe imgSelvagem
 
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
@@ -53,8 +87,12 @@ function alternarImagens(pokemons, shinyPokemons) {
         if (pokemon && shinyPokemon && nome.includes('*')) {
             let showShiny = false;
             setInterval(() => {
-                img.src = showShiny ? shinyPokemon.img : pokemon.img;
-                showShiny = !showShiny;
+                img.classList.add('hidden');
+                setTimeout(() => {
+                    img.src = showShiny ? shinyPokemon.img : pokemon.img;
+                    img.classList.remove('hidden');
+                    showShiny = !showShiny;
+                }, 500); // Esperar meio segundo para a transição de opacidade
             }, 2000);
         }
     });
