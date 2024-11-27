@@ -31,14 +31,12 @@ function getTypeColor(tipo) {
         case 'sombrio': return '#705746';
         case 'aço': return '#B7B7CE';
         case 'fada': return '#D685AD';
-        default: return '#FFFFFF'; // Cor padrão
+        default: return '#FFFFFF';
     }
 }
 
 function criarElementoPokemon(pokemon, shinyPokemon) {
     const li = document.createElement('li');
-
-    // Adiciona o tipo1 e, se existir, o tipo2
     let classList = `Selvagem ${pokemon.tipo1.toLowerCase()}`;
     if (pokemon.tipo2) {
         classList += ` ${pokemon.tipo2.toLowerCase()}`;
@@ -47,17 +45,15 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
 
     // Define a cor de fundo baseada nos tipos
     if (pokemon.tipo2 && pokemon.tipo2.toLowerCase() !== 'null') {
-        // Combina duas cores para dois tipos
         li.style.background = `linear-gradient(to right, ${getTypeColor(pokemon.tipo1)}, ${getTypeColor(pokemon.tipo2)})`;
     } else {
-        // Usa uma única cor para um tipo
         li.style.backgroundColor = getTypeColor(pokemon.tipo1);
     }
 
     const img = document.createElement('img');
     img.src = pokemon.img;
     img.alt = pokemon.nome;
-    img.classList.add('imgSelvagem'); // Adiciona a classe imgSelvagem
+    img.classList.add('imgSelvagem');
 
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
@@ -87,13 +83,15 @@ function alternarImagens(pokemons, shinyPokemons) {
         if (pokemon && shinyPokemon && nome.includes('*')) {
             let showShiny = false;
             setInterval(() => {
-                img.classList.add('hidden');
+                // Adiciona transição de opacidade ao alternar as imagens
+                img.style.transition = 'opacity 0.5s';
+                img.style.opacity = 0; // Torna a imagem transparente
                 setTimeout(() => {
                     img.src = showShiny ? shinyPokemon.img : pokemon.img;
-                    img.classList.remove('hidden');
+                    img.style.opacity = 1; // Torna a imagem visível novamente
                     showShiny = !showShiny;
-                }, 500); // Esperar meio segundo para a transição de opacidade
-            }, 2000);
+                }, 500); // Espera meio segundo para a transição de opacidade
+            }, 2500); // Alterna a imagem a cada 2.5 segundos
         }
     });
 }
