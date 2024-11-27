@@ -101,6 +101,10 @@
   font-size: 1.2em;
 }
 
+li.Selvagem {
+  width: 100px;
+  
+}
 }
 
 @media (max-width: 500px) {
