@@ -43,7 +43,6 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     }
     li.className = classList;
 
-    // Define a cor de fundo baseada nos tipos
     if (pokemon.tipo2 && pokemon.tipo2.toLowerCase() !== 'null') {
         li.style.background = `linear-gradient(to right, ${getTypeColor(pokemon.tipo1)}, ${getTypeColor(pokemon.tipo2)})`;
     } else {
@@ -72,9 +71,9 @@ function buscarShinyPokemon(shinyPokemons, nome) {
 }
 
 function alternarImagens(pokemons, shinyPokemons) {
-    const itens = document.querySelectorAll('#pokemon-list li');
+    const listas = document.querySelectorAll('.pokemon-list li');
 
-    itens.forEach(item => {
+    listas.forEach(item => {
         const nome = item.textContent.trim();
         const img = item.querySelector('img');
         const pokemon = buscarPokemon(pokemons, nome);
@@ -83,43 +82,43 @@ function alternarImagens(pokemons, shinyPokemons) {
         if (pokemon && shinyPokemon && nome.includes('*')) {
             let showShiny = false;
             setInterval(() => {
-                // Adiciona transição de opacidade ao alternar as imagens
                 img.style.transition = 'opacity 0.5s';
-                img.style.opacity = 0; // Torna a imagem transparente
+                img.style.opacity = 0;
                 setTimeout(() => {
                     img.src = showShiny ? shinyPokemon.img : pokemon.img;
-                    img.style.opacity = 1; // Torna a imagem visível novamente
+                    img.style.opacity = 1;
                     showShiny = !showShiny;
-                }, 500); // Espera meio segundo para a transição de opacidade
-            }, 2500); // Alterna a imagem a cada 2.5 segundos
+                }, 500);
+            }, 2500);
         }
     });
 }
 
 async function preencherLista() {
     const { pokemons, shinyPokemons } = await carregarPokemons();
-    const lista = document.getElementById('pokemon-list');
-    const itens = lista.querySelectorAll('li');
+    const listas = document.querySelectorAll('.pokemon-list');
 
-    itens.forEach(item => {
-        const nome = item.textContent.trim();
-        const pokemon = buscarPokemon(pokemons, nome);
-        const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
+    listas.forEach(lista => {
+        const itens = lista.querySelectorAll('li');
 
-        if (pokemon) {
-            const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
-            if (nome.includes('*')) {
-                novoItem.lastChild.nodeValue = ` ${nome}`; // Mantém o nome com *
+        itens.forEach(item => {
+            const nome = item.textContent.trim();
+            const pokemon = buscarPokemon(pokemons, nome);
+            const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
+
+            if (pokemon) {
+                const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
+                if (nome.includes('*')) {
+                    novoItem.lastChild.nodeValue = ` ${nome}`;
+                }
+                item.replaceWith(novoItem);
+            } else {
+                console.log(`Pokémon ${nome} não encontrado`);
             }
-            item.replaceWith(novoItem);
-        } else {
-            console.log(`Pokémon ${nome} não encontrado`);
-        }
-    });
+        });
 
-    // Chamar a função para alternar imagens após preencher a lista
-    alternarImagens(pokemons, shinyPokemons);
+        alternarImagens(pokemons, shinyPokemons);
+    });
 }
 
-// Preencher a lista ao carregar a página
 window.onload = preencherLista;
