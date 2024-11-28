@@ -469,11 +469,11 @@ footer p:first-child {
 }
 
 ul.selvagens {
-  list-style-type: none; 
-  padding: 0; 
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: space-around; 
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 li.Selvagem {
@@ -495,4 +495,12 @@ li.Selvagem:hover {
 li.Selvagem img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+li.Selvagem {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
 }
