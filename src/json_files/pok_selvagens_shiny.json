@@ -3381,9 +3381,23 @@
 "tipo2": "Dragão"
 },
 {
+"id": 483,
+"nome": "Dialga Forma Origem",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm483.fORIGIN.s.icon.png",
+"tipo1": "Aço",
+"tipo2": "Dragão"
+},
+{
 "id": 484,
 "nome": "Palkia",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_484_00_shiny.png",
+"tipo1": "Água",
+"tipo2": "Dragão"
+},
+{
+"id": 484,
+"nome": "Palkia Forma Origem",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm484.fORIGIN.s.icon.png",
 "tipo1": "Água",
 "tipo2": "Dragão"
 },
