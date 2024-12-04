@@ -531,3 +531,13 @@ li.Selvagem {
   color: #fff;
   margin-top: 10px;
 }
+
+.bonus-list li {
+  color: #2c3e50;
+  font-size: 1.2em; 
+  padding: 10px 0;
+  border-bottom: 1px solid #ecf0f1; 
+}
+.bonus-list li:last-child {
+  border-bottom: none; 
+}
