@@ -2485,6 +2485,13 @@
 "tipo2": "null"
 },
 {
+"id": 354,
+"nome": "Mega Banette",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm354.fMEGA.icon.png",
+"tipo1": "Fantasma",
+"tipo2": "null"
+},
+{
 "id": 355,
 "nome": "Duskull",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_355_00.png",
@@ -2670,6 +2677,13 @@
 "id": 381,
 "nome": "Latios",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_381_00.png",
+"tipo1": "Dragão",
+"tipo2": "Psíquico"
+},
+{
+"id": 381,
+"nome": "Mega Latios",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm381.fMEGA.icon.png",
 "tipo1": "Dragão",
 "tipo2": "Psíquico"
 },
@@ -4560,6 +4574,13 @@
 "id": 649,
 "nome": "Genesect",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_11.png",
+"tipo1": "Inseto",
+"tipo2": "Aço"
+},
+{
+"id": 649,
+"nome": "Genesect (Disco Congelante)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_15.png",
 "tipo1": "Inseto",
 "tipo2": "Aço"
 },

@@ -1402,7 +1402,7 @@
 {
 "id": 201,
 "nome": "Unown",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_201_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_201_11_shiny.png",
 "tipo1": "Psíquico",
 "tipo2": "null"
 },
@@ -2478,6 +2478,13 @@
 "tipo2": "null"
 },
 {
+"id": 354,
+"nome": "Mega Banette",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm354.fMEGA.s.icon.png",
+"tipo1": "Fantasma",
+"tipo2": "null"
+},
+{
 "id": 355,
 "nome": "Duskull",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_355_00_shiny.png",
@@ -2667,6 +2674,13 @@
 "tipo2": "Psíquico"
 },
 {
+"id": 381,
+"nome": "Mega Latios",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm381.fMEGA.s.icon.png",
+"tipo1": "Dragão",
+"tipo2": "Psíquico"
+},
+{
 "id": 382,
 "nome": "Kyogre",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_382_00_shiny.png",
@@ -2697,7 +2711,7 @@
 {
 "id": 386,
 "nome": "Deoxys",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_11_shiny.png",
 "tipo1": "Psíquico",
 "tipo2": "null"
 },
@@ -2879,14 +2893,14 @@
 {
 "id": 412,
 "nome": "Burmy",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_412_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_412_11_shiny.png",
 "tipo1": "Inseto",
 "tipo2": "null"
 },
 {
 "id": 413,
 "nome": "Wormadam",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_413_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_413_11_shiny.png",
 "tipo1": "Inseto",
 "tipo2": "Grama"
 },
@@ -2942,21 +2956,21 @@
 {
 "id": 421,
 "nome": "Cherrim",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_421_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_421_11_shiny.png",
 "tipo1": "Grama",
 "tipo2": "null"
 },
 {
 "id": 422,
 "nome": "Shellos",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_422_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_422_11_shiny.png",
 "tipo1": "Água",
 "tipo2": "null"
 },
 {
 "id": 423,
 "nome": "Gastrodon",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_423_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_423_11_shiny.png",
 "tipo1": "Água",
 "tipo2": "Terrestre"
 },
@@ -3348,7 +3362,7 @@
 {
 "id": 479,
 "nome": "Rotom",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_479_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_479_11_shiny.png",
 "tipo1": "Elétrico",
 "tipo2": "Fantasma"
 },
@@ -3418,7 +3432,7 @@
 {
 "id": 487,
 "nome": "Giratina",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_487_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_487_11_shiny.png",
 "tipo1": "Fantasma",
 "tipo2": "Dragão"
 },
@@ -3453,7 +3467,7 @@
 {
 "id": 492,
 "nome": "Shaymin",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_492_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_492_11_shiny.png",
 "tipo1": "Grama",
 "tipo2": "null"
 },
@@ -3859,7 +3873,7 @@
 {
 "id": 550,
 "nome": "Basculin",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_550_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_550_11_shiny.png",
 "tipo1": "Água",
 "tipo2": "null"
 },
@@ -3894,7 +3908,7 @@
 {
 "id": 555,
 "nome": "Darmanitan",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_555_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_555_11_shiny.png",
 "tipo1": "Fogo",
 "tipo2": "null"
 },
@@ -4111,7 +4125,7 @@
 {
 "id": 586,
 "nome": "Sawsbuck",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_586_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_586_11_shiny.png",
 "tipo1": "Normal",
 "tipo2": "Grama"
 },
@@ -4496,14 +4510,14 @@
 {
 "id": 641,
 "nome": "Tornadus",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_641_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_641_11_shiny.png",
 "tipo1": "Voador",
 "tipo2": "null"
 },
 {
 "id": 642,
 "nome": "Thundurus",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_642_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_642_11_shiny.png",
 "tipo1": "Elétrico",
 "tipo2": "Voador"
 },
@@ -4524,35 +4538,42 @@
 {
 "id": 645,
 "nome": "Landorus",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_645_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_645_11_shiny.png",
 "tipo1": "Terrestre",
 "tipo2": "Voador"
 },
 {
 "id": 646,
 "nome": "Kyurem",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_646_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_646_11_shiny.png",
 "tipo1": "Dragão",
 "tipo2": "Gelo"
 },
 {
 "id": 647,
 "nome": "Keldeo",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_647_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_647_11_shiny.png",
 "tipo1": "Água",
 "tipo2": "Lutador"
 },
 {
 "id": 648,
 "nome": "Meloetta",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_648_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_648_11_shiny.png",
 "tipo1": "Normal",
 "tipo2": "Psíquico"
 },
 {
 "id": 649,
 "nome": "Genesect",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_11.png",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_11_shiny.png",
+"tipo1": "Inseto",
+"tipo2": "Aço"
+},
+{
+"id": 649,
+"nome": "Genesect (Disco Congelante)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_15_shiny.png",
 "tipo1": "Inseto",
 "tipo2": "Aço"
 },
