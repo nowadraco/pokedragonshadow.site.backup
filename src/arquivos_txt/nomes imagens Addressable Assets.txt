@@ -2985,6 +2985,10 @@ Addressable%20Assets/pm83.fGALARIAN.icon.png
 Addressable%20Assets/pm83.fGALARIAN.s.icon.png
 Addressable%20Assets/pm83.icon.png
 Addressable%20Assets/pm83.s.icon.png
+Addressable%20Assets/pm854.fANTIQUE.icon.png
+Addressable%20Assets/pm854.fANTIQUE.s.icon.png
+Addressable%20Assets/pm854.fPHONY.icon.png
+Addressable%20Assets/pm854.fPHONY.s.icon.png
 Addressable%20Assets/pm848.icon.png
 Addressable%20Assets/pm848.s.icon.png
 Addressable%20Assets/pm849.fAMPED.icon.png

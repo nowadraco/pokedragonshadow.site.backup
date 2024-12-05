@@ -854,6 +854,13 @@
 "tipo2": "Fada"
 },
 {
+"id": 122,
+"nome": "Mr. Mime de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm122.fGALARIAN.s.icon.png",
+"tipo1": "Psíquico",
+"tipo2": "Fada"
+},
+{
 "id": 123,
 "nome": "Scyther",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_123_00_shiny.png",
@@ -4166,8 +4173,15 @@
 },
 {
 "id": 592,
-"nome": "Frillish",
+"nome": "Frillish Macho",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_592_00_shiny.png",
+"tipo1": "Água",
+"tipo2": "Fantasma"
+},
+{
+"id": 592,
+"nome": "Frillish Fêmea",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_592_01_shiny.png",
 "tipo1": "Água",
 "tipo2": "Fantasma"
 },
@@ -4420,6 +4434,13 @@
 "id": 628,
 "nome": "Braviary",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_628_00_shiny.png",
+"tipo1": "Normal",
+"tipo2": "Voador"
+},
+{
+"id": 628,
+"nome": "Braviary de Hisui",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.icon.png",
 "tipo1": "Normal",
 "tipo2": "Voador"
 },
@@ -6008,7 +6029,7 @@
 {
 "id": 854,
 "nome": "Sinistea",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm854.s.icon.png",
+"img": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/9964cdc3df25c9a864047768d482b6f745192673/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm854.fANTIQUE.s.icon.png",
 "tipo1": "Fantasma",
 "tipo2": "null"
 },
