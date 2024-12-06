@@ -189,6 +189,13 @@
 "tipo2": "null"
 },
 {
+"id": 27,
+"nome": "Sandshrew de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.icon.png",
+"tipo1": "Terrestre",
+"tipo2": "null"
+},
+{
 "id": 28,
 "nome": "Sandslash",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_028_00.png",
@@ -346,6 +353,13 @@
 "id": 50,
 "nome": "Diglett",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_050_00.png",
+"tipo1": "Terrestre",
+"tipo2": "null"
+},
+{
+"id": 50,
+"nome": "Diglett de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.fALOLA.icon.png",
 "tipo1": "Terrestre",
 "tipo2": "null"
 },
@@ -1585,6 +1599,13 @@
 "id": 225,
 "nome": "Delibird",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_225_00.png",
+"tipo1": "Gelo",
+"tipo2": "Voador"
+},
+{
+"id": 225,
+"nome": "Delibird com laço festivo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm225.fWINTER_2020.icon.png",
 "tipo1": "Gelo",
 "tipo2": "Voador"
 },
