@@ -4998,6 +4998,13 @@
 "tipo2": "Fada"
 },
 {
+"id": 702,
+"nome": "Dedenne com traje festivo",
+"img": "/src/imagens/dedenne_traje_festivo.webp",
+"tipo1": "Elétrico",
+"tipo2": "Fada"
+},
+{
 "id": 703,
 "nome": "Carbink",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm703.icon.png",
