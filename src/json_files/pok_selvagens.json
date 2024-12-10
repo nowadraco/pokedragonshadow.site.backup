@@ -385,6 +385,13 @@
 "tipo2": "null"
 },
 {
+"id": 52,
+"nome": "Meowth de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_052_61.png",
+"tipo1": "Sombrio",
+"tipo2": "null"
+},
+{
 "id": 53,
 "nome": "Persian",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_053_00.png",
@@ -567,6 +574,13 @@
 "tipo2": "null"
 },
 {
+"id": 77,
+"nome": "Ponyta de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_077_31.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
+},
+{
 "id": 78,
 "nome": "Rapidash",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_078_00.png",
@@ -579,6 +593,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_079_00.png",
 "tipo1": "Água",
 "tipo2": "Psíquico"
+},
+{
+"id": 79,
+"nome": "Slowpoke de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_079_31.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
 },
 {
 "id": 80,
@@ -607,6 +628,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_083_00.png",
 "tipo1": "Normal",
 "tipo2": "Voador"
+},
+{
+"id": 83,
+"nome": "Farfetch’d de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_083_31.png",
+"tipo1": "Lutador",
+"tipo2": "null"
 },
 {
 "id": 84,
@@ -810,6 +838,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_110_00.png",
 "tipo1": "Venenoso",
 "tipo2": "null"
+},
+{
+"id": 110,
+"nome": "Weezing de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_110_31.png",
+"tipo1": "Venenoso",
+"tipo2": "fada"
 },
 {
 "id": 111,
@@ -1601,6 +1636,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_222_00.png",
 "tipo1": "Água",
 "tipo2": "Pedra"
+},
+{
+"id": 222,
+"nome": "Corsola de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_222_61.png",
+"tipo1": "Fantasma",
+"tipo2": "null"
 },
 {
 "id": 223,
@@ -3969,6 +4011,13 @@
 "tipo2": "null"
 },
 {
+"id": 554,
+"nome": "Darumaka de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_554_31.png",
+"tipo1": "Gelo",
+"tipo2": "null"
+},
+{
 "id": 555,
 "nome": "Darmanitan",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_555_11.png",
@@ -4023,6 +4072,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_562_00.png",
 "tipo1": "Fantasma",
 "tipo2": "null"
+},
+{
+"id": 562,
+"nome": "Yamask de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_562_31.png",
+"tipo1": "Terrestre",
+"tipo2": "Fantasma"
 },
 {
 "id": 563,
@@ -4422,6 +4478,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_618_00.png",
 "tipo1": "Terrestre",
 "tipo2": "Elétrico"
+},
+{
+"id": 618,
+"nome": "Stunfisk de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_618_31.png",
+"tipo1": "Terrestre",
+"tipo2": "Aço"
 },
 {
 "id": 619,
