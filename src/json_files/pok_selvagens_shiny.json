@@ -133,6 +133,13 @@
 "tipo2": "null"
 },
 {
+"id": 19,
+"nome": "Rattata de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_019_61_shiny.png",
+"tipo1": "Normal",
+"tipo2": "Sombrio"
+},
+{
 "id": 20,
 "nome": "Raticate",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_020_00_shiny.png",
@@ -192,8 +199,8 @@
 "id": 27,
 "nome": "Sandshrew de Alola",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm27.fALOLA.s.icon.png",
-"tipo1": "Terrestre",
-"tipo2": "null"
+"tipo1": "Gelo",
+"tipo2": "Aço"
 },
 {
 "id": 28,
@@ -361,7 +368,7 @@
 "nome": "Diglett de Alola",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.fALOLA.s.icon.png",
 "tipo1": "Terrestre",
-"tipo2": "null"
+"tipo2": "Aço"
 },
 {
 "id": 51,
@@ -735,6 +742,13 @@
 "tipo2": "Psíquico"
 },
 {
+"id": 103,
+"nome": "Exeggutor de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_103_61_shiny.png",
+"tipo1": "Grama",
+"tipo2": "Dragão"
+},
+{
 "id": 104,
 "nome": "Cubone",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_104_00_shiny.png",
@@ -747,6 +761,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_105_00_shiny.png",
 "tipo1": "Terrestre",
 "tipo2": "null"
+},
+{
+"id": 105,
+"nome": "Marowak de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_105_61_shiny.png",
+"tipo1": "Fogo",
+"tipo2": "Fantasma"
 },
 {
 "id": 106,
@@ -1867,6 +1888,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_263_00_shiny.png",
 "tipo1": "Normal",
 "tipo2": "null"
+},
+{
+"id": 263,
+"nome": "Zigzagoon de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm263.fGALARIAN.s.icon.png",
+"tipo1": "Sombrio",
+"tipo2": "Normal"
 },
 {
 "id": 264,
@@ -4460,6 +4488,13 @@
 },
 {
 "id": 628,
+"nome": "Braviary de Hisuian",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.s.icon.png",
+"tipo1": "Psíquico",
+"tipo2": "Voador"
+},
+{
+"id": 628,
 "nome": "Braviary de Hisui",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.icon.png",
 "tipo1": "Normal",
@@ -5069,10 +5104,17 @@
 },
 {
 "id": 713,
-"nome": "Avalugg",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm713.fHISUIAN.s.icon.png",
+"nome": "Avalugg de hisuian",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm713.s.icon.png",
 "tipo1": "Gelo",
 "tipo2": "null"
+},
+{
+"id": 713,
+"nome": "Avalugg de hisuian",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm713.fHISUIAN.s.icon.png",
+"tipo1": "Gelo",
+"tipo2": "Pedra"
 },
 {
 "id": 714,
