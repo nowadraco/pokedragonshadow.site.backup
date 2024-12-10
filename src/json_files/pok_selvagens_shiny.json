@@ -2436,6 +2436,13 @@
 "tipo2": "Voador"
 },
 {
+"id": 334,
+"nome": "Mega Altaria",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm334.fMEGA.s.icon.png",
+"tipo1": "Dragão",
+"tipo2": "Fada"
+},
+{
 "id": 335,
 "nome": "Zangoose",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_335_00_shiny.png",
