@@ -4558,16 +4558,9 @@
 },
 {
 "id": 628,
-"nome": "Braviary de Hisuian",
+"nome": "Braviary de Hisui",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.s.icon.png",
 "tipo1": "Psíquico",
-"tipo2": "Voador"
-},
-{
-"id": 628,
-"nome": "Braviary de Hisui",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.icon.png",
-"tipo1": "Normal",
 "tipo2": "Voador"
 },
 {

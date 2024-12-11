@@ -182,6 +182,13 @@
 "tipo2": "null"
 },
 {
+"id": 25,
+"nome": "Pikachu com traje divertido de inverno",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_01_pgo_winter2020.png",
+"tipo1": "Elétrico",
+"tipo2": "null"
+},
+{
 "id": 26,
 "nome": "Raichu",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_026_00.png",
@@ -4565,7 +4572,7 @@
 },
 {
 "id": 628,
-"nome": "Braviary de Hisuian",
+"nome": "Braviary de Hisui",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm628.fHISUIAN.icon.png",
 "tipo1": "Psíquico",
 "tipo2": "Voador"
