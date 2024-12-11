@@ -606,6 +606,8 @@ Addressable%20Assets/pm221.icon.png
 Addressable%20Assets/pm221.s.icon.png
 Addressable%20Assets/pm222.icon.png
 Addressable%20Assets/pm222.s.icon.png
+Addressable%20Assets/pm222.fGALARIAN.icon.png
+Addressable%20Assets/pm222.fGALARIAN.s.icon.png
 Addressable%20Assets/pm223.icon.png
 Addressable%20Assets/pm223.s.icon.png
 Addressable%20Assets/pm224.g2.icon.png
