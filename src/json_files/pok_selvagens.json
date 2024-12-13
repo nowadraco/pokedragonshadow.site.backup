@@ -1,5 +1,12 @@
 [
-    {
+{
+"id": 0,
+"nome": "Substitute",
+"img": "/src/imagens/substitute.png",
+"tipo1": "substitute",
+"tipo2": "null"
+},
+{
 "id": 1,
 "nome": "Bulbasaur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_001_00.png",
@@ -1743,6 +1750,13 @@
 "tipo2": "null"
 },
 {
+"id": 234,
+"nome": "Stantler com traje festivo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm234.cWINTER_2018.icon.png",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
 "id": 235,
 "nome": "Smeargle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_235_00.png",
@@ -2782,6 +2796,13 @@
 "id": 380,
 "nome": "Latias",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_380_00.png",
+"tipo1": "Dragão",
+"tipo2": "Psíquico"
+},
+{
+"id": 380,
+"nome": "Mega Latias",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm380.fMEGA.icon.png",
 "tipo1": "Dragão",
 "tipo2": "Psíquico"
 },

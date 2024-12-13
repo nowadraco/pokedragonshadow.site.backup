@@ -31,6 +31,7 @@ function getTypeColor(tipo) {
         case 'sombrio': return '#705746';
         case 'aço': return '#B7B7CE';
         case 'fada': return '#D685AD';
+        case 'substitute': return '#000';
         default: return '#FFFFFF';
     }
 }
@@ -96,6 +97,12 @@ function alternarImagens(pokemons, shinyPokemons) {
 
 async function preencherLista() {
     const { pokemons, shinyPokemons } = await carregarPokemons();
+    const substitute = buscarPokemon(pokemons, 'substitute') || {
+        nome: 'Substitute',
+        tipo1: 'normal',
+        img: '/path/to/substitute-image.png'
+    };
+
     const listas = document.querySelectorAll('.pokemon-list');
 
     listas.forEach(lista => {
@@ -103,18 +110,18 @@ async function preencherLista() {
 
         itens.forEach(item => {
             const nome = item.textContent.trim();
-            const pokemon = buscarPokemon(pokemons, nome);
-            const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
+            let pokemon = buscarPokemon(pokemons, nome);
+            let shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
 
-            if (pokemon) {
-                const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
-                if (nome.includes('*')) {
-                    novoItem.lastChild.nodeValue = ` ${nome}`;
-                }
-                item.replaceWith(novoItem);
-            } else {
-                console.log(`Pokémon ${nome} não encontrado`);
+            if (!pokemon) {
+                pokemon = substitute;
             }
+
+            const novoItem = criarElementoPokemon(pokemon, shinyPokemon);
+            if (nome.includes('*')) {
+                novoItem.lastChild.nodeValue = ` ${nome}`;
+            }
+            item.replaceWith(novoItem);
         });
 
         alternarImagens(pokemons, shinyPokemons);
