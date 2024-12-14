@@ -1302,6 +1302,13 @@
 "tipo2": "null"
 },
 {
+"id": 172,
+"nome": "Pichu estilo de verão",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm172.cSUMMER_2018.s.icon.png",
+"tipo1": "Elétrico",
+"tipo2": "null"
+},
+{
 "id": 173,
 "nome": "Cleffa",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_173_00_shiny.png",
