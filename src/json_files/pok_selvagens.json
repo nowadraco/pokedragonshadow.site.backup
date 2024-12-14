@@ -420,6 +420,13 @@
 "tipo2": "null"
 },
 {
+"id": 54,
+"nome": "Psyduck com traje festivo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm54.cHOLIDAY_2023.icon.png",
+"tipo1": "Água",
+"tipo2": "null"
+},
+{
 "id": 55,
 "nome": "Golduck",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_055_00.png",
@@ -446,6 +453,13 @@
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_058_00.png",
 "tipo1": "Fogo",
 "tipo2": "null"
+},
+{
+"id": 58,
+"nome": "Growlithe de Hisui",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm58.fHISUIAN.icon.png",
+"tipo1": "Fogo",
+"tipo2": "Pedra"
 },
 {
 "id": 59,
@@ -2681,6 +2695,13 @@
 "tipo2": "Água"
 },
 {
+"id": 363,
+"nome": "Spheal com cachecol festivo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+"tipo1": "Gelo",
+"tipo2": "Água"
+},
+{
 "id": 364,
 "nome": "Sealeo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_364_00.png",
@@ -3447,6 +3468,13 @@
 "id": 471,
 "nome": "Glaceon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_471_00.png",
+"tipo1": "Gelo",
+"tipo2": "null"
+},
+{
+"id": 471,
+"nome": "Glaceon com roupa festiva do fundo do mar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm471.cHOLIDAY_2021_NOEVOLVE.icon.png",
 "tipo1": "Gelo",
 "tipo2": "null"
 },
@@ -4476,6 +4504,13 @@
 "id": 613,
 "nome": "Cubchoo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_613_00.png",
+"tipo1": "Gelo",
+"tipo2": "null"
+},
+{
+"id": 613,
+"nome": "Cubchoo com laço festivo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm613.fWINTER_2020.icon.png",
 "tipo1": "Gelo",
 "tipo2": "null"
 },
