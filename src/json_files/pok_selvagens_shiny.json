@@ -267,6 +267,13 @@
 },
 {
 "id": 37,
+"nome": "Vulpix de Alola",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_037_61_shiny.png",
+"tipo1": "gelo",
+"tipo2": "null"
+},
+{
+"id": 37,
 "nome": "Vulpix",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_037_00_shiny.png",
 "tipo1": "Fogo",
@@ -3374,6 +3381,13 @@
 "tipo2": "Gelo"
 },
 {
+"id": 460,
+"nome": "Mega Abomasnow",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm460.fMEGA.s.icon.png",
+"tipo1": "Grama",
+"tipo2": "Gelo"
+},
+{
 "id": 461,
 "nome": "Weavile",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_461_00_shiny.png",
@@ -3579,6 +3593,13 @@
 {
 "id": 487,
 "nome": "Giratina",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_487_12_shiny.png",
+"tipo1": "Fantasma",
+"tipo2": "Dragão"
+},
+{
+"id": 487,
+"nome": "Giratina (Forma Alterada)",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_487_11_shiny.png",
 "tipo1": "Fantasma",
 "tipo2": "Dragão"
