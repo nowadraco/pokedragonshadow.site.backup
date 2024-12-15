@@ -540,3 +540,14 @@ li.Selvagem {
 .bonus-list li:last-child {
   border-bottom: none; 
 }
+
+.Necrozma-videos {
+  display: flex;
+  gap: 10px; /* Espaço entre os vídeos */
+  width: auto; /* Ajusta a largura ao conteúdo */
+  height: auto; /* Ajusta a altura ao conteúdo */
+}
+
+.Necrozma-videos video {
+  flex: 1;
+}

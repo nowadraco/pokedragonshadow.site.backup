@@ -21,21 +21,22 @@
   }
 
   .coluna2 section h2,
-.coluna2-post section h2{
-  font-size: 1.1em;
-}
+  .coluna2-post section h2 {
+    font-size: 1.1em;
+  }
 
-h4 {
-  width: 80%;
-}
+  h4 {
+    width: 80%;
+  }
 
 
 }
 
 @media (max-width: 768px) {
-  main{
+  main {
     flex-direction: column;
   }
+
   .menu-hamburguer {
     display: block;
   }
@@ -64,6 +65,11 @@ h4 {
 
   h4 {
     width: 85%;
+  }
+
+  .Necrozma-videos {
+    flex-direction: column;
+    align-items: center;
   }
 
 }
@@ -106,18 +112,18 @@ h4 {
   }
 
   .coluna2 section h2,
-.coluna2-post section h2{
-  font-size: 1.2em;
-}
+  .coluna2-post section h2 {
+    font-size: 1.2em;
+  }
 
-li.Selvagem {
-  width: 100px;
-  font-size: 12px;
-}
+  li.Selvagem {
+    width: 100px;
+    font-size: 12px;
+  }
 
-h4 {
-  width: 75%;
-}
+  h4 {
+    width: 75%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -156,7 +162,15 @@ h4 {
     line-height: 1.4;
     margin-bottom: 5px;
   }
-  
+
+  .Necrozma-videos video {
+    width: 100%;
+  }
+
+  .Necrozma-videos video {
+    width: 200px;
+  }
+
 }
 
 @media (max-width: 215px) {
