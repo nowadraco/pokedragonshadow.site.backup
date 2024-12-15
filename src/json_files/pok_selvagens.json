@@ -6104,9 +6104,23 @@
 "tipo2": "null"
 },
 {
+"id": 831,
+"nome": "Wooloo com traje festivo",
+"img": "/src/imagens/pokemon/pm831.webp",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
 "id": 832,
 "nome": "Dubwool",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm832.icon.png",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
+"id": 832,
+"nome": "Dubwool com traje festivo",
+"img": "/src/imagens/pokemon/pm832.webp",
 "tipo1": "Normal",
 "tipo2": "null"
 },
