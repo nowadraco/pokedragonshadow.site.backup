@@ -623,6 +623,13 @@
 "tipo2": "null"
 },
 {
+"id": 78,
+"nome": "Rapidash de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_078_31.png",
+"tipo1": "Psíquico",
+"tipo2": "Fada"
+},
+{
 "id": 79,
 "nome": "Slowpoke",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_079_00.png",
@@ -641,6 +648,13 @@
 "nome": "Slowbro",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_080_00.png",
 "tipo1": "Água",
+"tipo2": "Psíquico"
+},
+{
+"id": 80,
+"nome": "Slowbro de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_080_31.png",
+"tipo1": "Venenoso",
 "tipo2": "Psíquico"
 },
 {
@@ -1484,6 +1498,13 @@
 "tipo2": "Terrestre"
 },
 {
+"id": 194,
+"nome": "Wooper de Paldea",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm194.fPALDEA.icon.png",
+"tipo1": "Venenoso",
+"tipo2": "Terrestre"
+},
+{
 "id": 195,
 "nome": "Quagsire",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_195_00.png",
@@ -1516,6 +1537,13 @@
 "nome": "Slowking",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_199_00.png",
 "tipo1": "Água",
+"tipo2": "Psíquico"
+},
+{
+"id": 199,
+"nome": "Slowking de Galar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_199_31.png",
+"tipo1": "Venenoso",
 "tipo2": "Psíquico"
 },
 {
