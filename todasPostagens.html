@@ -18,6 +18,70 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="./src/styles/midia.css">
+    
+    <style>
+        main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 1 30%;
+    box-sizing: border-box;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 1 30%; /* Ajusta o tamanho das postagens */
+    box-sizing: border-box;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.post p {
+    margin: 15px 0;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navigation button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.navigation button:hover {
+    background-color: #555;
+}
+
+
+    </style>
 </head>
 
 <body>
@@ -49,40 +113,8 @@
             <img src="/src/imagens/logoSite.png" alt="Dragão do logo do site">
         </div>
     </header>
-    <section class="encartes">
-        <div class="encarte" id="ultimaPostagem">
-        </div>
-        <div class="encarte" id="penultimaPostagem">
-        </div>
-        <div class="encarte" id="terceiraUltimaPostagem">
-        </div>
-    </section>
     <main>
-        <div class="coluna1">
-            <div class="Postagens" id="quartaUltimaPostagem">
-            </div>
-            <div class="Postagens" id="quintaUltimaPostagem">
-            </div>
-            <div class="Postagens" id="sextaUltimaPostagem">
-            </div>
-            <div class="Postagens" id="setimaUltimaPostagem">
-            </div>
-            <div class="Postagens" id="oitavaUltimaPostagem">
-            </div>
-            <div class="Postagens" id="nonaUltimaPostagem">
-            </div>
-        </div>
-        <div class="coluna2">
-            <section class="ultimaPostagem" id="decimaUltimaPostagem">
-            </section>
-            <section class="maisVisto" id="decimaPrimeiraUltimaPostagem">
-            </section>
-            <section class="novidades" id="decimaSegundaUltimaPostagem">
-            </section>
-            <section class="noticiaAleatoria" id="postagemAleatoria">
-            </section>
-        </div>
-        <button id="scrollToTopBtn"></button>
+        <!-- As postagens serão inseridas aqui -->
     </main>
     <footer>
         <p class="copyright">&copy; 2024 PokeDragonShadow. Todos os direitos reservados.</p>
@@ -92,9 +124,8 @@
     </footer>
 
     <script src="./src/scripts/script.js"></script>
-    <script src="./src/scripts/postagens.js"></script>
-    <script src="/src/scripts/voltarAoTop.js"></script>
     <script src="/src/scripts/ultimolink.js"></script>
+    <script src="./src/scripts/todasPostagens.js"></script>
 </body>
 
 </html>
