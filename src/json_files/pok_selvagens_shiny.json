@@ -147,6 +147,13 @@
 "tipo2": "null"
 },
 {
+"id": 20,
+"nome": "Raticate com chapéu de festa",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm20.cJAN_2020_NOEVOLVE.g2.icon.png",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
 "id": 21,
 "nome": "Spearow",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_021_00_shiny.png",
@@ -178,6 +185,13 @@
 "id": 25,
 "nome": "Pikachu",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_025_00_shiny.png",
+"tipo1": "Elétrico",
+"tipo2": "null"
+},
+{
+"id": 25,
+"nome": "Pikachu com um gorro com flocos de neve",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm25.cWINTER_2018.g2.s.icon.png",
 "tipo1": "Elétrico",
 "tipo2": "null"
 },
@@ -290,6 +304,13 @@
 "id": 39,
 "nome": "Jigglypuff",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_039_00_shiny.png",
+"tipo1": "Normal",
+"tipo2": "Fada"
+},
+{
+"id": 39,
+"nome": "Jigglypuff com um laço",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm39.cJAN_2024.s.icon.png",
 "tipo1": "Normal",
 "tipo2": "Fada"
 },
@@ -1239,6 +1260,13 @@
 "tipo2": "Voador"
 },
 {
+"id": 163,
+"nome": "Hoothoot com traje de Ano Novo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm163.cJAN_2022_NOEVOLVE.s.icon.png",
+"tipo1": "Normal",
+"tipo2": "Voador"
+},
+{
 "id": 164,
 "nome": "Noctowl",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_164_00_shiny.png",
@@ -1515,6 +1543,13 @@
 "id": 202,
 "nome": "Wobbuffet",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_202_00_shiny.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
+},
+{
+"id": 202,
+"nome": "Wobbuffet com chapéu de festa",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm202.cJAN_2020_NOEVOLVE.g2.s.icon.png",
 "tipo1": "Psíquico",
 "tipo2": "null"
 },
@@ -1984,6 +2019,13 @@
 "id": 265,
 "nome": "Wurmple",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_265_00_shiny.png",
+"tipo1": "Inseto",
+"tipo2": "null"
+},
+{
+"id": 265,
+"nome": "Wurmple com chapéu de festa",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm265.cJAN_2020_NOEVOLVE.s.icon.png",
 "tipo1": "Inseto",
 "tipo2": "null"
 },
