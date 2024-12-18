@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', async (event) => {
+document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('/src/noticias/');
         if (!response.ok) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         let currentPage = 0;
         const postsPerPage = 6;
 
-        function displayCurrentPage() {
+        async function displayCurrentPage() {
             const start = currentPage * postsPerPage;
             const end = start + postsPerPage;
             const postsToDisplay = sortedLinks.slice(start, end);
@@ -23,13 +23,46 @@ document.addEventListener('DOMContentLoaded', async (event) => {
 
             mainContainer.innerHTML = ''; // Limpar postagens anteriores
 
-            postsToDisplay.forEach(async (postLink) => {
+            for (const postLink of postsToDisplay) {
                 await displayPost(postLink, mainContainer);
-            });
+            }
 
-            // Adicionar botões de navegação dentro do mainContainer
+            // Adicionar botões de navegação após todos os posts
             addNavigationButtons(mainContainer);
         }
+
+        // Função para adicionar botões de navegação
+        function addNavigationButtons(container) {
+            // Verificar se já existe um conjunto de botões de navegação e removê-los
+            const existingNavigation = container.querySelector('.navigation');
+            if (existingNavigation) {
+                container.removeChild(existingNavigation);
+            }
+
+            // Criar novo conjunto de botões de navegação
+            const navigation = document.createElement('div');
+            navigation.className = 'navigation';
+            const prevButton = document.createElement('button');
+            prevButton.innerText = 'Anterior';
+            prevButton.onclick = () => {
+                if (currentPage > 0) {
+                    currentPage--;
+                    displayCurrentPage();
+                }
+            };
+            const nextButton = document.createElement('button');
+            nextButton.innerText = 'Próximo';
+            nextButton.onclick = () => {
+                if ((currentPage + 1) * postsPerPage < sortedLinks.length) {
+                    currentPage++;
+                    displayCurrentPage();
+                }
+            };
+            navigation.appendChild(prevButton);
+            navigation.appendChild(nextButton);
+            container.appendChild(navigation);
+        }
+
         // Inicializar a primeira página
         displayCurrentPage();
     } catch (error) {
@@ -104,35 +137,4 @@ async function displayPost(postLink, container) {
     } catch (error) {
         console.error('Erro ao buscar o post:', error);
     }
-}
-
-function addNavigationButtons(container) {
-    // Verificar se já existe um conjunto de botões de navegação e removê-los
-    const existingNavigation = container.querySelector('.navigation');
-    if (existingNavigation) {
-        container.removeChild(existingNavigation);
-    }
-
-    // Criar novo conjunto de botões de navegação
-    const navigation = document.createElement('div');
-    navigation.className = 'navigation';
-    const prevButton = document.createElement('button');
-    prevButton.innerText = 'Anterior';
-    prevButton.onclick = () => {
-        if (currentPage > 0) {
-            currentPage--;
-            displayCurrentPage();
-        }
-    };
-    const nextButton = document.createElement('button');
-    nextButton.innerText = 'Próximo';
-    nextButton.onclick = () => {
-        if ((currentPage + 1) * postsPerPage < sortedLinks.length) {
-            currentPage++;
-            displayCurrentPage();
-        }
-    };
-    navigation.appendChild(prevButton);
-    navigation.appendChild(nextButton);
-    container.appendChild(navigation);
 }
