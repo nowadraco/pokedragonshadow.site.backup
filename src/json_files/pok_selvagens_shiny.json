@@ -3549,6 +3549,13 @@
 "tipo2": "Lutador"
 },
 {
+"id": 475,
+"nome": "Mega Gallade",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm475.fMEGA.s.icon.png",
+"tipo1": "Psíquico",
+"tipo2": "Lutador"
+},
+{
 "id": 476,
 "nome": "Probopass",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_476_00_shiny.png",
