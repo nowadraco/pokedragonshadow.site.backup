@@ -614,13 +614,14 @@ li.Selvagem {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px 10px 20px;
 }
 
 .ver-todas-postagens {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color: #4d4d4d;
   color: white;
   border: none;
   border-radius: 10px;
@@ -629,5 +630,5 @@ li.Selvagem {
 }
 
 .ver-todas-postagens:hover {
-  background-color: #45a049;
+  background-color: #260951;
 }

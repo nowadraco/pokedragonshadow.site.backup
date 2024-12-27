@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: Arial, sans-serif;
 }
@@ -19,10 +20,20 @@ img {
     height: auto;
 }
 
-ul, li {
+ul,
+li {
     list-style-type: none;
-    padding: 0; margin: 0; 
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* Additional resets as needed */
-
