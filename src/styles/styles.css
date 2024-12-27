@@ -240,6 +240,11 @@ header img {
 
 main {
   display: flex;
+  flex-direction: column;
+}
+
+.colunas-1-2 {
+  display: flex;
 }
 
 .coluna1 {
@@ -351,9 +356,10 @@ h5 {
   border: none;
   border-radius: 20px;
   margin-top: 10px;
-  margin-left: 0; 
+  margin-left: 0;
   align-self: center;
 }
+
 .construction-message {
   display: flex;
   flex-direction: column;
@@ -582,19 +588,46 @@ li.Selvagem {
 .bonus-list li {
   color: #2c3e50;
   padding: 5px 0;
-  border-bottom: 1px solid #ecf0f1; 
+  border-bottom: 1px solid #ecf0f1;
 }
+
 .bonus-list li:last-child {
-  border-bottom: none; 
+  border-bottom: none;
 }
 
 .Necrozma-videos {
   display: flex;
-  gap: 10px; /* Espaço entre os vídeos */
-  width: auto; /* Ajusta a largura ao conteúdo */
-  height: auto; /* Ajusta a altura ao conteúdo */
+  gap: 10px;
+  /* Espaço entre os vídeos */
+  width: auto;
+  /* Ajusta a largura ao conteúdo */
+  height: auto;
+  /* Ajusta a altura ao conteúdo */
 }
 
 .Necrozma-videos video {
   flex: 1;
+}
+
+.coluna3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ver-todas-postagens {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.ver-todas-postagens:hover {
+  background-color: #45a049;
 }
