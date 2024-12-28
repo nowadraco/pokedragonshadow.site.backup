@@ -1,7 +1,7 @@
 async function carregarPokemons() {
     try {
-        const response = await fetch('/src/json_files/pok_selvagens.json');
-        const shinyResponse = await fetch('/src/json_files/pok_selvagens_shiny.json');
+        const response = await fetch('./src/json_files/pok_selvagens.json');
+        const shinyResponse = await fetch('./src/json_files/pok_selvagens_shiny.json');
         const pokemons = await response.json();
         const shinyPokemons = await shinyResponse.json();
         return { pokemons, shinyPokemons };
@@ -100,7 +100,7 @@ async function preencherLista() {
     const substitute = buscarPokemon(pokemons, 'substitute') || {
         nome: 'Substitute',
         tipo1: 'normal',
-        img: '/path/to/substitute-image.png'
+        img: './path/to/substitute-image.png'
     };
 
     const listas = document.querySelectorAll('.pokemon-list');
