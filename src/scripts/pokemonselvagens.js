@@ -80,7 +80,7 @@ function alternarImagens(pokemons, shinyPokemons) {
         const pokemon = buscarPokemon(pokemons, nome);
         const shinyPokemon = buscarShinyPokemon(shinyPokemons, nome);
 
-        if (pokemon && shinyPokemon && nome.includes('*')) {
+        if (img && pokemon && shinyPokemon && nome.includes('*')) {
             let showShiny = false;
             setInterval(() => {
                 img.style.transition = 'opacity 0.5s';
