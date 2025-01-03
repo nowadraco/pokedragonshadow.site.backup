@@ -1,5 +1,5 @@
 const fetchPosts = async () => {
-    const response = await fetch('/src/noticias');
+    const response = await fetch('../../src/noticias');
     const postsHTML = await response.text();
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(postsHTML, 'text/html');
