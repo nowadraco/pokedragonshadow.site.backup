@@ -1,7 +1,7 @@
 async function carregarPokemons() {
     try {
         const response = await fetch('../../src/json_files/pok_selvagens.json');
-        const shinyResponse = await fetch('../../src/json_files/pok_selvagens_shiny.json');
+        const shinyResponse = await fetch('../src/json_files/pok_selvagens_shiny.json');
         const pokemons = await response.json();
         const shinyPokemons = await shinyResponse.json();
         return { pokemons, shinyPokemons };

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async (event) => {
   try {
-    const response = await fetch('../../src/noticias/');
+    const response = await fetch('../src/noticias/');
     console.log('Buscando notícias em:', response.url);
     if (!response.ok) {
       throw new Error('Erro ao carregar o diretório de notícias.');
