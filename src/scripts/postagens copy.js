@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', async (event) => {
   try {
     const response = await fetch('/src/noticias/');
-    console.log('Buscando notícias em:', response.url);
     if (!response.ok) {
       throw new Error('Erro ao carregar o diretório de notícias.');
     }
@@ -62,7 +61,6 @@ function parseAndSortLinks(text) {
 async function displayPost(postLink, containerSelector) {
   try {
     const postResponse = await fetch(postLink);
-    console.log('Buscando post em:', postResponse.url);
     if (!postResponse.ok) {
       throw new Error('Erro ao carregar o arquivo de post.');
     }
