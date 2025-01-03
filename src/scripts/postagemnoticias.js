@@ -1,5 +1,5 @@
 const fetchPosts = async () => {
-    const response = await fetch('../src/noticias');
+    const response = await fetch('/src/noticias');
     console.log('Buscando dados em:', response.url);
     const postsHTML = await response.text();
     const parser = new DOMParser();
