@@ -8,15 +8,15 @@ document.addEventListener('DOMContentLoaded', async (event) => {
     const sortedLinks = parseAndSortLinks(text);
 
     // Postagens fixas
-    await displayPost('./' + sortedLinks[0], '#ultimaPostagem');
-    await displayPost('./' + sortedLinks[1], '#penultimaPostagem');
-    await displayPost('./' + sortedLinks[2], '#terceiraUltimaPostagem');
-    await displayPost('./' + sortedLinks[3], '#quartaUltimaPostagem');
-    await displayPost('./' + sortedLinks[4], '#quintaUltimaPostagem');
-    await displayPost('./' + sortedLinks[5], '#sextaUltimaPostagem');
-    await displayPost('./' + sortedLinks[6], '#setimaUltimaPostagem');
-    await displayPost('./' + sortedLinks[7], '#oitavaUltimaPostagem');
-    await displayPost('./' + sortedLinks[8], '#nonaUltimaPostagem');
+    await displayPost('../' + sortedLinks[0], '#ultimaPostagem');
+    await displayPost('../' + sortedLinks[1], '#penultimaPostagem');
+    await displayPost('../' + sortedLinks[2], '#terceiraUltimaPostagem');
+    await displayPost('../' + sortedLinks[3], '#quartaUltimaPostagem');
+    await displayPost('../' + sortedLinks[4], '#quintaUltimaPostagem');
+    await displayPost('../' + sortedLinks[5], '#sextaUltimaPostagem');
+    await displayPost('../' + sortedLinks[6], '#setimaUltimaPostagem');
+    await displayPost('../' + sortedLinks[7], '#oitavaUltimaPostagem');
+    await displayPost('../' + sortedLinks[8], '#nonaUltimaPostagem');
 
     // Postagens aleatórias
     const randomIndices = [];
@@ -27,15 +27,15 @@ document.addEventListener('DOMContentLoaded', async (event) => {
       }
     }
 
-    await displayPost('./' + sortedLinks[randomIndices[0]], '#decimaUltimaPostagem');
-    await displayPost('./' + sortedLinks[randomIndices[1]], '#decimaPrimeiraUltimaPostagem');
+    await displayPost('../' + sortedLinks[randomIndices[0]], '#decimaUltimaPostagem');
+    await displayPost('../' + sortedLinks[randomIndices[1]], '#decimaPrimeiraUltimaPostagem');
     const decimaSegundaPostagemIndex = randomIndices[2];
     const decimaSegundaPostagem = sortedLinks[decimaSegundaPostagemIndex] || sortedLinks[0];
-    await displayPost('./' + decimaSegundaPostagem, '#decimaSegundaUltimaPostagem');
+    await displayPost('../' + decimaSegundaPostagem, '#decimaSegundaUltimaPostagem');
 
     // Adicionar uma postagem aleatória adicional
     const randomIndex = Math.floor(Math.random() * sortedLinks.length);
-    await displayPost('./' + sortedLinks[randomIndex], '#postagemAleatoria');
+    await displayPost('../' + sortedLinks[randomIndex], '#postagemAleatoria');
   } catch (error) {
     console.error('Erro ao buscar os posts:', error);
   }
