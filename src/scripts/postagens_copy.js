@@ -66,7 +66,7 @@ async function displayPost(postLink, containerSelector) {
 
     const title = titleElement.innerText;
     const tag = tagElements[0].innerText; // Pega a primeira tag
-    const secondImage = imageElements[1].src.replace('../../', './');
+    const secondImage = imageElements[1].src.replace('../../', 'pokedragonshadow.site/');
     const secondParagraph = paragraphElements[1].innerText;
     const thirdParagraph = paragraphElements[2].innerText;
 console.log(secondImage)
