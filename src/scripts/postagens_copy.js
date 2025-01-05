@@ -1,15 +1,12 @@
 document.addEventListener('DOMContentLoaded', async (event) => {
   try {
     const response = await fetch('https://nowadraco.github.io/pokedragonshadow.site/src/json_files/noticias.json'); // URL do arquivo JSON
-    console.log('Buscando notícias em:', response.url);
     if (!response.ok) {
       throw new Error('Erro ao carregar o arquivo de notícias.');
     }
     const jsonArray = await response.json();
-    console.log('JSON carregado:', jsonArray);
 
     const links = jsonArray.map(item => item.link);
-    console.log('Links extraídos:', links);
 
     if (!links || links.length === 0) {
       throw new Error('Nenhum link encontrado.');
@@ -51,10 +48,7 @@ document.addEventListener('DOMContentLoaded', async (event) => {
 
 async function displayPost(postLink, containerSelector) {
   try {
-    console.log('Exibindo post:', postLink);
-
     const postResponse = await fetch(postLink);
-    console.log('Buscando post em:', postResponse.url);
     if (!postResponse.ok) {
       throw new Error('Erro ao carregar o arquivo de post.');
     }
@@ -75,7 +69,7 @@ async function displayPost(postLink, containerSelector) {
     const secondImage = imageElements[1].src.replace('../../', './');
     const secondParagraph = paragraphElements[1].innerText;
     const thirdParagraph = paragraphElements[2].innerText;
-
+console.log(secondImage)
     const mainPageElement = document.createElement('div');
     mainPageElement.innerHTML = `
       <a href="${postLink}">
