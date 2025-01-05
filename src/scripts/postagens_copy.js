@@ -78,16 +78,16 @@ async function displayPost(postLink, containerSelector) {
 
     const mainPageElement = document.createElement('div');
     mainPageElement.innerHTML = `
-            <a href="${postLink}">
-                <div class="tags">
-                    <span class="tag-ref">${tag}</span>
-                </div>
-                <h2>${title}</h2>
-                <img src="${secondImage}" alt="Post Image">
-                <p>${secondParagraph}</p>
-                <p>${thirdParagraph}</p>
-            </a>
-        `;
+      <a href="${postLink}">
+        <div class="tags">
+          <span class="tag-ref">${tag}</span>
+        </div>
+        <h2>${title}</h2>
+        <img src="${secondImage}" alt="Post Image" class="post-image">
+        <p>${secondParagraph}</p>
+        <p>${thirdParagraph}</p>
+      </a>
+    `;
 
     const container = document.querySelector(containerSelector);
     if (container) {
