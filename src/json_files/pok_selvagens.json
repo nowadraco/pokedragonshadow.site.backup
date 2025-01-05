@@ -5266,7 +5266,7 @@
 {
 "id": 702,
 "nome": "Dedenne com traje festivo",
-"img": "/src/imagens/dedenne_traje_festivo.webp",
+"img": "https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/dedenne_traje_festivo.webp",
 "tipo1": "Elétrico",
 "tipo2": "Fada"
 },
