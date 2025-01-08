@@ -148,7 +148,7 @@ header img {
     justify-content: center;
 }
 
- .post a {
+.post a {
     text-decoration: none;
     color: inherit;
     color: #0c0c0c;
@@ -175,12 +175,8 @@ header img {
     font-size: 1em;
 }
 
- .navigation button:hover {
+.navigation button:hover {
     background-color: #555;
-}
-
-.tags {
-    display: flex;
 }
 
 .tag-ref {
@@ -202,14 +198,12 @@ main {
 }
 
 .post {
-    display: flex;
-    align-items: flex-start;
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 8px;
     margin: 5px 30px;
 }
-/*
+
 .tags {
     margin-bottom: 10px;
 }
@@ -287,4 +281,4 @@ footer p:first-child {
 .legal {
     font-size: 12px;
     color: #ccc;
-}  */
+}  
