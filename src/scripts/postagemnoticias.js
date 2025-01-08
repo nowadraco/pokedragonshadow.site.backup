@@ -1,9 +1,10 @@
 const fetchPosts = async () => {
-    const response = await fetch('./src/noticias');
-    const postsHTML = await response.text();
-    const parser = new DOMParser();
-    const htmlDoc = parser.parseFromString(postsHTML, 'text/html');
-    const links = Array.from(htmlDoc.querySelectorAll('a')).map(a => a.href);
+    const response = await fetch('https://nowadraco.github.io/pokedragonshadow.site/src/json_files/noticias.json'); // URL do arquivo JSON
+    if (!response.ok) {
+        throw new Error('Erro ao carregar o arquivo de notícias.');
+    }
+    const jsonArray = await response.json();
+    const links = jsonArray.map(item => item.link);
 
     return links.filter(link => link.match(/\d{4}-\d{2}-\d{2}-\d{2}-\d{2}.html$/))
                 .sort((a, b) => {
