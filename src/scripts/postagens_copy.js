@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', async (event) => {
     // Função para extrair e converter datas dos links
     const extractDateFromLink = (link) => {
       const match = link.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/);
-      console.log(`Ano: ${match[1]}, Dia: ${match[2]}, Mês: ${match[3]}, Hora: ${match[4]}, Minuto: ${match[5]}`); // Verificação
       return new Date(match[1], match[3] - 1, match[2], match[4], match[5]); // Ajustando a ordem
     };
 
