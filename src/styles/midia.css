@@ -75,6 +75,10 @@
 }
 
 @media (max-width: 600px) {
+  .colunas-1-2 {
+    flex-direction: column;
+  }
+
   .coluna1-post {
     margin: 5px;
     padding: 3px;
