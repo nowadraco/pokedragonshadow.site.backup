@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const response = await fetch('./src/noticias/');
+        const response = await fetch('https://nowadraco.github.io/pokedragonshadow.site/src/json_files/noticias.json'); // URL do arquivo JSON
         if (!response.ok) {
-            throw new Error('Erro ao carregar o diretório de notícias.');
+            throw new Error('Erro ao carregar o arquivo de notícias.');
         }
-        const text = await response.text();
-        const sortedLinks = parseAndSortLinks(text);
+        const jsonArray = await response.json();
+        const sortedLinks = parseAndSortLinks(jsonArray);
 
         let currentPage = 0;
         const postsPerPage = 6;
@@ -70,13 +70,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-function parseAndSortLinks(text) {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(text, 'text/html');
-    const links = [...doc.querySelectorAll('a')];
-
-    return links
-        .map(link => link.getAttribute('href'))
+function parseAndSortLinks(jsonArray) {
+    return jsonArray
+        .map(item => item.link)
         .filter(href => href.match(/\d{4}-\d{2}-\d{2}-\d{2}-\d{2}\.html/))
         .sort((a, b) => {
             const aParts = a.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/).slice(1);
