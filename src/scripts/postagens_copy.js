@@ -6,11 +6,20 @@ document.addEventListener('DOMContentLoaded', async (event) => {
     }
     const jsonArray = await response.json();
 
-    const links = jsonArray.map(item => item.link);
+    let links = jsonArray.map(item => item.link);
 
     if (!links || links.length === 0) {
       throw new Error('Nenhum link encontrado.');
     }
+
+    // Função para extrair e converter datas dos links
+    const extractDateFromLink = (link) => {
+      const match = link.match(/(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})/);
+      return new Date(match[1], match[2] - 1, match[3], match[4], match[5]);
+    };
+
+    // Ordenar os links do mais recente para o mais antigo
+    links = links.sort((a, b) => extractDateFromLink(b) - extractDateFromLink(a));
 
     // Postagens fixas
     await displayPost(links[0], '#ultimaPostagem');
@@ -70,7 +79,6 @@ async function displayPost(postLink, containerSelector) {
     const secondParagraph = paragraphElements[1].innerText;
     const thirdParagraph = paragraphElements[2].innerText;
 
-    console.log(secondImage);
     const mainPageElement = document.createElement('div');
     mainPageElement.innerHTML = `
       <a href="${postLink}">
