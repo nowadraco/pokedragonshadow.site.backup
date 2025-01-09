@@ -66,14 +66,6 @@
     .post-content img {
         width: 75%;
     }
-
-    .text-content h2{
-        font-size: 16px;
-    }
-
-    .text-content p{
-        font-size: 12px;
-    }
 }
 
 @media (max-width: 350px) {
