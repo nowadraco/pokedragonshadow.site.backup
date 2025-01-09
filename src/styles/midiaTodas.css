@@ -41,13 +41,40 @@
     .post-content img {
         width: 60%;
     }
+
+    .text-content {
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
-    
+    .post-content img {
+        width: 70%;
+    }
+
+    .text-content h2{
+        font-size: 18px;
+    }
+
+    .text-content p{
+        font-size: 14px;
+    }
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+
+    .post-content img {
+        width: 75%;
+    }
+
+    .text-content h2{
+        font-size: 16px;
+    }
+
+    .text-content p{
+        font-size: 12px;
+    }
+}
 
 @media (max-width: 350px) {
     header img {
