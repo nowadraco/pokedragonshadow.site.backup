@@ -1,0 +1,29 @@
+Pokémon GO
+15% de desconto na primeira compra na Loja online do Pokémon GO de qualquer item com valor igual ou superior a US$ 9,99.
+Pokéball icon
+ATUALIZAÇÕES
+9 de janeiro de 2025
+O Pokémon GO descontinua o suporte em dispositivos Android de 32 bits
+Pokémon GO to discontinue support on 32-bit Android devices
+Treinadoras e Treinadores,
+
+Em uma atualização futura do Pokémon GO, vamos encerrar a compatibilidade com dispositivos Android de 32 bits. Com isso, poderemos otimizar nosso processo de desenvolvimento e concentrar recursos na compatibilidade com sistemas operacionais e tecnologias mais recentes. Os usuários com dispositivos Android de 64 bits e iOS não são afetados e não precisam realizar nenhuma ação.
+
+A compatibilidade com os dispositivos afetados terminará em fases a partir de março de 2025, com os dispositivos Android que baixaram o Pokémon GO da Samsung Galaxy Store. A compatibilidade com dispositivos Android de 32 bits para aqueles que baixaram o Pokémon GO da Google Play Store terminará em junho de 2025.
+
+
+A seguir está uma lista com alguns exemplos de dispositivos Android de 32 bits:
+
+Samsung Galaxy S4, S5, Note 3, J3
+Sony Xperia Z2, Z3
+Motorola Moto G (1ª geração)
+LG Fortune, Tribute
+OnePlus One
+HTC One (M8)
+ZTE Overture 3
+Certos dispositivos Android lançados antes de 2015
+As Treinadoras e os Treinadores que estiverem usando os dispositivos afetados não poderão mais acessar suas contas do Pokémon GO (incluindo suas Pokémoedas e seus itens) nesses dispositivos quando a atualização entrar em vigor. Se estiverem usando um dispositivo Android de 32 bits, para continuar jogando o Pokémon GO, vocês precisarão de um dispositivo Android de 64 bits ou iOS compatível. Antes de atualizar, não se esqueçam de salvar as informações de login da sua conta em algum lugar, para que vocês possam entrar novamente usando o novo dispositivo. Se quiserem saber mais sobre essa atualização e ver uma lista mais abrangente de dispositivos afetados, visitem nossa help center.
+
+
+Prestem atenção aos arredores e sigam as diretrizes das autoridades locais de saúde ao jogar Pokémon GO. Os próximos eventos estão sujeitos a alterações. Sigam-nos nas redes sociais, selecionem a opção para receber notificações por push e inscrevam-se nos nossos e-mails para ficar por dentro das novidades.
+
