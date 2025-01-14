@@ -2331,6 +2331,13 @@
 "tipo2": "Psíquico"
 },
 {
+"id": 308,
+"nome": "Mega Medicham",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm308.fMEGA.s.icon.png",
+"tipo1": "Lutador",
+"tipo2": "Psíquico"
+},
+{
 "id": 309,
 "nome": "Electrike",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_309_00_shiny.png",
@@ -2908,6 +2915,27 @@
 "id": 386,
 "nome": "Deoxys",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_11_shiny.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
+},
+{
+"id": 386,
+"nome": "Deoxys (Forma Ataque)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_12_shiny.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
+},
+{
+"id": 386,
+"nome": "Deoxys (Forma Defesa)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_13_shiny.png",
+"tipo1": "Psíquico",
+"tipo2": "null"
+},
+{
+"id": 386,
+"nome": "Deoxys (Forma Velocidade)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_386_14_shiny.png",
 "tipo1": "Psíquico",
 "tipo2": "null"
 },
