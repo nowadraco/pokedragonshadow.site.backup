@@ -84,6 +84,13 @@
 "tipo2": "Voador"
 },
 {
+"id": 12,
+"nome": "Butterfree com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm12.cFASHION_2021_NOEVOLVE.g2.s.icon.png",
+"tipo1": "Inseto",
+"tipo2": "Voador"
+},
+{
 "id": 13,
 "nome": "Weedle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_013_00_shiny.png",
@@ -388,6 +395,13 @@
 "id": 50,
 "nome": "Diglett",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_050_00_shiny.png",
+"tipo1": "Terrestre",
+"tipo2": "null"
+},
+{
+"id": 50,
+"nome": "Diglett com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm50.cFALL_2022.s.icon.png",
 "tipo1": "Terrestre",
 "tipo2": "null"
 },
@@ -1158,6 +1172,13 @@
 "id": 149,
 "nome": "Dragonite",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_149_00_shiny.png",
+"tipo1": "Dragão",
+"tipo2": "Voador"
+},
+{
+"id": 149,
+"nome": "Dragonite com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm149.cFALL_2023.s.icon.png",
 "tipo1": "Dragão",
 "tipo2": "Voador"
 },
@@ -3059,6 +3080,13 @@
 "tipo2": "null"
 },
 {
+"id": 403,
+"nome": "Shinx com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm403.cFALL_2020_NOEVOLVE.g2.s.icon.png",
+"tipo1": "Elétrico",
+"tipo2": "null"
+},
+{
 "id": 404,
 "nome": "Luxio",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_404_00_shiny.png",
@@ -3934,6 +3962,13 @@
 "tipo2": "null"
 },
 {
+"id": 522,
+"nome": "Blitzle com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm522.cFASHION_2021_NOEVOLVE.s.icon.png",
+"tipo1": "Elétrico",
+"tipo2": "null"
+},
+{
 "id": 523,
 "nome": "Zebstrika",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_523_00_shiny.png",
@@ -4298,9 +4333,23 @@
 "tipo2": "null"
 },
 {
+"id": 572,
+"nome": "Minccino com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/pokemon/pm572.cFALL_2024.s.icon.png",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
 "id": 573,
 "nome": "Cinccino",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_573_00_shiny.png",
+"tipo1": "Normal",
+"tipo2": "null"
+},
+{
+"id": 573,
+"nome": "Cinccino com fantasia fashion",
+"img": "https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/pokemon/pm573.cFALL_2024.s.icon.png",
 "tipo1": "Normal",
 "tipo2": "null"
 },
