@@ -833,6 +833,13 @@
 "tipo2": "null"
 },
 {
+"id": 99,
+"nome": "Kingler Gigantamax",
+"img": "https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/pokemon/pm99.fGIGANTAMAX.icon.png",
+"tipo1": "Água",
+"tipo2": "null"
+},
+{
 "id": 100,
 "nome": "Voltorb",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_100_00.png",
@@ -1081,6 +1088,13 @@
 "id": 131,
 "nome": "Lapras",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_131_00.png",
+"tipo1": "Água",
+"tipo2": "Gelo"
+},
+{
+"id": 131,
+"nome": "Lapras Gigantamax",
+"img": "https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/pokemon/pm131.fGIGANTAMAX.icon.png",
 "tipo1": "Água",
 "tipo2": "Gelo"
 },
