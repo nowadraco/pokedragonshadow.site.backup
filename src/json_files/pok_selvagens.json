@@ -3332,6 +3332,13 @@
 "tipo2": "null"
 },
 {
+"id": 428,
+"nome": "Mega Lopunny",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm428.fMEGA.icon.png",
+"tipo1": "Normal",
+"tipo2": "Lutador"
+},
+{
 "id": 429,
 "nome": "Mismagius",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_429_00.png",
