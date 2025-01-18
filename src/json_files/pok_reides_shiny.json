@@ -3,21 +3,21 @@
 "id": 1,
 "nome": "Bulbasaur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_001_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 2,
 "nome": "Ivysaur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_002_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 3,
 "nome": "Venusaur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_003_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -346,21 +346,21 @@
 "id": 43,
 "nome": "Oddish",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_043_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 44,
 "nome": "Gloom",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_044_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 45,
 "nome": "Vileplume",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_045_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -368,14 +368,14 @@
 "nome": "Paras",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_046_00_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 47,
 "nome": "Parasect",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_047_00_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 48,
@@ -563,21 +563,21 @@
 "id": 69,
 "nome": "Bellsprout",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_069_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 70,
 "nome": "Weepinbell",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_070_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 71,
 "nome": "Victreebel",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_071_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -829,21 +829,21 @@
 "id": 102,
 "nome": "Exeggcute",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_102_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Psíquico"
 },
 {
 "id": 103,
 "nome": "Exeggutor",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_103_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Psíquico"
 },
 {
 "id": 103,
 "nome": "Exeggutor de Alola",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_103_61_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Dragão"
 },
 {
@@ -934,7 +934,7 @@
 "id": 114,
 "nome": "Tangela",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_114_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -1221,21 +1221,21 @@
 "id": 152,
 "nome": "Chikorita",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_152_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 153,
 "nome": "Bayleef",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_153_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 154,
 "nome": "Meganium",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_154_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -1445,7 +1445,7 @@
 "id": 182,
 "nome": "Bellossom",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_182_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -1480,21 +1480,21 @@
 "id": 187,
 "nome": "Hoppip",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_187_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
 "id": 188,
 "nome": "Skiploom",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_188_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
 "id": 189,
 "nome": "Jumpluff",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_189_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
@@ -1508,14 +1508,14 @@
 "id": 191,
 "nome": "Sunkern",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_191_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 192,
 "nome": "Sunflora",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_192_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -1964,27 +1964,27 @@
 "nome": "Celebi",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_251_00_shiny.png",
 "tipo1": "Psíquico",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 252,
 "nome": "Treecko",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_252_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 253,
 "nome": "Grovyle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_253_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 254,
 "nome": "Sceptile",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_254_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -2111,41 +2111,41 @@
 "nome": "Lotad",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_270_00_shiny.png",
 "tipo1": "Água",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 271,
 "nome": "Lombre",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_271_00_shiny.png",
 "tipo1": "Água",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 272,
 "nome": "Ludicolo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_272_00_shiny.png",
 "tipo1": "Água",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 273,
 "nome": "Seedot",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_273_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 274,
 "nome": "Nuzleaf",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_274_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Sombrio"
 },
 {
 "id": 275,
 "nome": "Shiftry",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_275_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Sombrio"
 },
 {
@@ -2215,14 +2215,14 @@
 "id": 285,
 "nome": "Shroomish",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_285_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 286,
 "nome": "Breloom",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_286_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Lutador"
 },
 {
@@ -2432,7 +2432,7 @@
 "id": 315,
 "nome": "Roselia",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_315_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -2544,14 +2544,14 @@
 "id": 331,
 "nome": "Cacnea",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_331_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 332,
 "nome": "Cacturne",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_332_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Sombrio"
 },
 {
@@ -2650,14 +2650,14 @@
 "nome": "Lileep",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_345_00_shiny.png",
 "tipo1": "Pedra",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 346,
 "nome": "Cradily",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_346_00_shiny.png",
 "tipo1": "Pedra",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 347,
@@ -2740,7 +2740,7 @@
 "id": 357,
 "nome": "Tropius",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_357_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
@@ -2992,21 +2992,21 @@
 "id": 387,
 "nome": "Turtwig",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_387_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 388,
 "nome": "Grotle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_388_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 389,
 "nome": "TorTerrestre",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_389_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Terrestre"
 },
 {
@@ -3132,14 +3132,14 @@
 "id": 406,
 "nome": "Budew",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_406_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 407,
 "nome": "Roserade",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_407_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -3182,7 +3182,7 @@
 "nome": "Wormadam",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_413_11_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 414,
@@ -3230,14 +3230,14 @@
 "id": 420,
 "nome": "Cherubi",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_420_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 421,
 "nome": "Cherrim",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_421_11_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3482,7 +3482,7 @@
 "id": 455,
 "nome": "Carnivine",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_455_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3510,21 +3510,21 @@
 "id": 459,
 "nome": "Snover",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_459_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Gelo"
 },
 {
 "id": 460,
 "nome": "Abomasnow",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Gelo"
 },
 {
 "id": 460,
 "nome": "Mega Abomasnow",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm460.fMEGA.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Gelo"
 },
 {
@@ -3559,7 +3559,7 @@
 "id": 465,
 "nome": "Tangrowth",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_465_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3594,7 +3594,7 @@
 "id": 470,
 "nome": "Leafeon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_470_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3783,7 +3783,7 @@
 "id": 492,
 "nome": "Shaymin",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_492_11_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3804,21 +3804,21 @@
 "id": 495,
 "nome": "Snivy",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_495_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 496,
 "nome": "Servine",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_496_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 497,
 "nome": "Serperior",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_497_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -3916,14 +3916,14 @@
 "id": 511,
 "nome": "Pansage",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_511_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 512,
 "nome": "Simisage",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_512_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -4127,21 +4127,21 @@
 "nome": "Sewaddle",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_540_00_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 541,
 "nome": "Swadloon",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_541_00_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 542,
 "nome": "Leavanny",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_542_00_shiny.png",
 "tipo1": "Inseto",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 543,
@@ -4168,28 +4168,28 @@
 "id": 546,
 "nome": "Cottonee",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_546_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fada"
 },
 {
 "id": 547,
 "nome": "Whimsicott",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_547_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fada"
 },
 {
 "id": 548,
 "nome": "Petilil",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_548_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 549,
 "nome": "Lilligant",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_549_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -4245,7 +4245,7 @@
 "id": 556,
 "nome": "Maractus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_556_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -4470,14 +4470,14 @@
 "nome": "Deerling",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_585_00_shiny.png",
 "tipo1": "Normal",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 586,
 "nome": "Sawsbuck",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_586_11_shiny.png",
 "tipo1": "Normal",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 587,
@@ -4504,14 +4504,14 @@
 "id": 590,
 "nome": "Foongus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_590_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
 "id": 591,
 "nome": "Amoonguss",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_591_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Venenoso"
 },
 {
@@ -4560,14 +4560,14 @@
 "id": 597,
 "nome": "Ferroseed",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_597_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Aço"
 },
 {
 "id": 598,
 "nome": "Ferrothorn",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_598_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Aço"
 },
 {
@@ -4882,7 +4882,7 @@
 "id": 640,
 "nome": "Virizion",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_640_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Lutador"
 },
 {
@@ -4959,21 +4959,21 @@
 "id": 650,
 "nome": "Chespin",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_650_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 651,
 "nome": "Quilladin",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_651_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 652,
 "nome": "Chesnaught",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_652_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Lutador"
 },
 {
@@ -5113,14 +5113,14 @@
 "id": 672,
 "nome": "Skiddo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_672_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 673,
 "nome": "Gogoat",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_673_00_shiny.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -5373,28 +5373,28 @@
 "nome": "Phantump",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm708.s.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 709,
 "nome": "Trevenant",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm709.s.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 710,
 "nome": "Pumpkaboo",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm710.fAVERAGE.cFALL_2022.s.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 711,
 "nome": "Gourgeist",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm711.fAVERAGE.cFALL_2022.s.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 712,
@@ -5477,21 +5477,21 @@
 "id": 722,
 "nome": "Rowlet",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm722.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
 "id": 723,
 "nome": "Dartrix",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm723.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Voador"
 },
 {
 "id": 724,
 "nome": "Decidueye",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm724.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fantasma"
 },
 {
@@ -5694,28 +5694,28 @@
 "id": 753,
 "nome": "Fomantis",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm753.s.icon.png",
-    "tipo1": "Grama",
+    "tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 754,
 "nome": "Lurantis",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm754.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 755,
 "nome": "Morelull",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm755.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fada"
 },
 {
 "id": 756,
 "nome": "Shiinotic",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm756.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fada"
 },
 {
@@ -5750,21 +5750,21 @@
 "id": 761,
 "nome": "Bounsweet",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm761.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 762,
 "nome": "Steenee",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm762.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 763,
 "nome": "Tsareena",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm763.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -5891,7 +5891,7 @@
 "nome": "Dhelmise",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm781.s.icon.png",
 "tipo1": "Fantasma",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 782,
@@ -5932,7 +5932,7 @@
 "id": 787,
 "nome": "Tapu Bulu",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm787.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fada"
 },
 {
@@ -6009,7 +6009,7 @@
 "id": 798,
 "nome": "Kartana",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm798.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Aço"
 },
 {
@@ -6093,21 +6093,21 @@
 "id": 810,
 "nome": "Grookey",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm810.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 811,
 "nome": "Thwackey",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm811.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 812,
 "nome": "Rillaboom",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm812.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -6226,14 +6226,14 @@
 "id": 829,
 "nome": "Gossifleur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm829.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 830,
 "nome": "Eldegoss",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm830.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
@@ -6303,21 +6303,21 @@
 "id": 840,
 "nome": "Applin",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm840.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Dragão"
 },
 {
 "id": 841,
 "nome": "Flapple",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm841.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Dragão"
 },
 {
 "id": 842,
 "nome": "Appletun",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm842.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Dragão"
 },
 {
@@ -6675,7 +6675,7 @@
 "nome": "Zarude",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm893.s.icon.png",
 "tipo1": "Sombrio",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 894,
@@ -6710,7 +6710,7 @@
 "nome": "Calyrex",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm898.s.icon.png",
 "tipo1": "Psíquico",
-"tipo2": "Grama"
+"tipo2": "Planta"
 },
 {
 "id": 899,
@@ -6765,21 +6765,21 @@
 "id": 906,
 "nome": "Sprigatito",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm906.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 907,
 "nome": "Floragato",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm907.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 908,
 "nome": "Meowscarada",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm908.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Sombrio"
 },
 {
@@ -6919,21 +6919,21 @@
 "id": 928,
 "nome": "Smoliv",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm928.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Normal"
 },
 {
 "id": 929,
 "nome": "Dolliv",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm929.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Normal"
 },
 {
 "id": 930,
 "nome": "Arboliva",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm930.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Normal"
 },
 {
@@ -7045,28 +7045,28 @@
 "id": 946,
 "nome": "Bramblin",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm946.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fantasma"
 },
 {
 "id": 947,
 "nome": "Brambleghast",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm947.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fantasma"
 },
 {
 "id": 948,
 "nome": "Toedscool",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm948.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Terrestre"
 },
 {
 "id": 949,
 "nome": "Toedscruel",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm949.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Terrestre"
 },
 {
@@ -7080,14 +7080,14 @@
 "id": 951,
 "nome": "Capsakid",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm951.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "null"
 },
 {
 "id": 952,
 "nome": "Scovillain",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm952.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Fogo"
 },
 {
@@ -7325,7 +7325,7 @@
 "id": 986,
 "nome": "Brute Bonnet",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm986.s.icon.png",
-"tipo1": "Grama",
+"tipo1": "Planta",
 "tipo2": "Sombrio"
 },
 {
