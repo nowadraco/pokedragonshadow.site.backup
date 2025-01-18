@@ -17,7 +17,7 @@ function getTypeColor(tipo) {
         case 'fogo': return '#FF4500';
         case 'água': return '#1E90FF';
         case 'elétrico': return '#F7D02C';
-        case 'Planta': return '#32CD32';
+        case 'planta': return '#32CD32';
         case 'gelo': return '#96D9D6';
         case 'lutador': return '#C22E28';
         case 'venenoso': return '#A33EA1';
