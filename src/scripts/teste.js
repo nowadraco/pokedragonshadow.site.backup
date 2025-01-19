@@ -89,7 +89,7 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
 
     const pcInfo = document.createElement('div');
     pcInfo.className = 'pc-info';
-    pcInfo.textContent = `PC: ${pokemon.pc} ${pokemon.pc2}`;
+    pcInfo.textContent = `PC: ${pokemon.pc}`;
 
     const weatherIcons = document.createElement('div');
     weatherIcons.className = 'weather-icons';
@@ -108,7 +108,6 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
     li.appendChild(pcInfo);
     li.appendChild(weatherIcons);
-    
 
     return li;
 }
