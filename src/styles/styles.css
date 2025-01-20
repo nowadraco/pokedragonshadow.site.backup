@@ -632,3 +632,17 @@ li.Selvagem {
 .ver-todas-postagens:hover {
   background-color: #260951;
 }
+
+.boost{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.clima-boost{
+  width: 23px;
+}
+
+.pc-boost{
+  font-size: 14px;
+}

@@ -38,7 +38,7 @@ function getTypeColor(tipo) {
 
 function getWeatherIcon(tipo) {
     switch (tipo.toLowerCase()) {
-        case 'grama':
+        case 'planta':
         case 'fogo':
         case 'terra':
             return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/c0997c494b393703889910d2a287f5533131d707/src/imagens/clima/ensolarado.png';
@@ -83,29 +83,31 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     }
 
     const img = document.createElement('img');
+    img.classList.add('imgSelvagem');
     img.src = pokemon.img;
     img.alt = pokemon.nome;
-    img.classList.add('imgSelvagem');
+    
 
     const pcInfo = document.createElement('div');
     pcInfo.className = 'pc-info';
     pcInfo.textContent = `PC: ${pokemon.pc} `;
 
     const weatherIcons = document.createElement('div');
-    weatherIcons.className = 'weather-icons';
+    weatherIcons.className = 'boost';
 
     const icon1 = document.createElement('img');
+    icon1.className = 'clima-boost';
     icon1.src = getWeatherIcon(pokemon.tipo1);
     weatherIcons.appendChild(icon1);
 
     if (pokemon.tipo2 && pokemon.tipo2.toLowerCase() !== 'null') {
         const icon2 = document.createElement('img');
-        icon2.src = getWeatherIcon(pokemon.tipo2);
+        icon2.className = 'clima-boost'
+        icon2.src = getWeatherIcon(pokemon.tipo2);;
         weatherIcons.appendChild(icon2);
     }
 
-    // Adiciona o PC2 após os ícones
-    weatherIcons.insertAdjacentHTML('beforeend', ` ${pokemon.pc2}`);
+    weatherIcons.insertAdjacentHTML('beforeend', `<div class="pc-boost"> ${pokemon.pc2}</div>`);
 
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
