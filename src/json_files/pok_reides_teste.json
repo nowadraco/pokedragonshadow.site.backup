@@ -11,7 +11,9 @@
 "nome": "Bulbasaur",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_001_00.png",
 "tipo1": "Planta",
-"tipo2": "Venenoso"
+"tipo2": "Venenoso",
+"pc": "1000 - 1500",
+"pc2": "1300 - 1800"
 },
 {
 "id": 2,
