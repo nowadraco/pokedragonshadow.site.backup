@@ -68,6 +68,30 @@ function getWeatherIcon(tipo) {
     }
 }
 
+function getTypeIcon(tipo) {
+    switch (tipo.toLowerCase()) {
+        case 'aço': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/aco.png';
+        case 'água': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/agua.png';
+        case 'dragão': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/dragao.png';
+        case 'elétrico': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/eletrico.png';
+        case 'fada': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/fada.png';
+        case 'fantasma': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/fantasma.png';
+        case 'fogo': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/fogo.png';
+        case 'gelo': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/gelo.png';
+        case 'inseto': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/inseto.png';
+        case 'lutador': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/lutador.png';
+        case 'normal': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/normal.png';
+        case 'pedra': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/pedra.png';
+        case 'planta': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/planta.png';
+        case 'psíquico': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/psiquico.png';
+        case 'sombrio': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/sombrio.png';
+        case 'terrestre': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/terrestre.png';
+        case 'venenoso': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/venenoso.png';
+        case 'voador': return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/imagens/tipos/voador.png';
+        default: return '';
+    }
+}
+
 function criarElementoPokemon(pokemon, shinyPokemon) {
     const li = document.createElement('li');
     let classList = `Selvagem ${pokemon.tipo1.toLowerCase()}`;
@@ -87,6 +111,20 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
     img.src = pokemon.img;
     img.alt = pokemon.nome;
     
+    const tipoIcons = document.createElement('div');
+    tipoIcons.className = 'tipo-icons';
+    
+    const tipo1Icon = document.createElement('img');
+    tipo1Icon.src = getTypeIcon(pokemon.tipo1);
+    tipo1Icon.alt = pokemon.tipo1;
+    tipoIcons.appendChild(tipo1Icon);
+
+    if (pokemon.tipo2 && pokemon.tipo2.toLowerCase() !== 'null') {
+        const tipo2Icon = document.createElement('img');
+        tipo2Icon.src = getTypeIcon(pokemon.tipo2);
+        tipo2Icon.alt = pokemon.tipo2;
+        tipoIcons.appendChild(tipo2Icon);
+    }
 
     const pcInfo = document.createElement('div');
     pcInfo.className = 'pc-info';
@@ -111,6 +149,7 @@ function criarElementoPokemon(pokemon, shinyPokemon) {
 
     li.appendChild(img);
     li.appendChild(document.createTextNode(` ${pokemon.nome}`));
+    li.appendChild(tipoIcons);
     li.appendChild(pcInfo);
     li.appendChild(weatherIcons);
 

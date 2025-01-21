@@ -646,3 +646,12 @@ li.Selvagem {
 .pc-boost{
   font-size: 14px;
 }
+
+.tipo-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tipo-icons img{
+  width:20px;
+}
