@@ -4893,9 +4893,23 @@
 "tipo2": "null"
 },
 {
+"id": 641,
+"nome": "Forma Therian de Tornadus",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_641_12_shiny.png",
+"tipo1": "Voador",
+"tipo2": "null"
+},
+{
 "id": 642,
 "nome": "Thundurus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_642_11_shiny.png",
+"tipo1": "Elétrico",
+"tipo2": "Voador"
+},
+{
+"id": 642,
+"nome": "Forma Therian de Thundurus",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_642_12_shiny.png",
 "tipo1": "Elétrico",
 "tipo2": "Voador"
 },
@@ -4917,6 +4931,13 @@
 "id": 645,
 "nome": "Landorus",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_645_11_shiny.png",
+"tipo1": "Terrestre",
+"tipo2": "Voador"
+},
+{
+"id": 645,
+"nome": "Forma Therian de Landorus",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_645_12_shiny.png",
 "tipo1": "Terrestre",
 "tipo2": "Voador"
 },
@@ -4945,6 +4966,27 @@
 "id": 649,
 "nome": "Genesect",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_11_shiny.png",
+"tipo1": "Inseto",
+"tipo2": "Aço"
+},
+{
+"id": 649,
+"nome": "Genesect (Disco Hídrico)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_12_shiny.png",
+"tipo1": "Inseto",
+"tipo2": "Aço"
+},
+{
+"id": 649,
+"nome": "Genesect (Disco Incendiante)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_14_shiny.png",
+"tipo1": "Inseto",
+"tipo2": "Aço"
+},
+{
+"id": 649,
+"nome": "Genesect (Disco Elétrico)",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_649_13_shiny.png",
 "tipo1": "Inseto",
 "tipo2": "Aço"
 },
