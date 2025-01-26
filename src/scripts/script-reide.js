@@ -83,13 +83,16 @@ function getWeatherIcon(tipo) {
 }
 
 function calculateCP(baseStats, ivs, level) {
-    const cpm = cpms[level - 1];
+    // Ajuste para selecionar o cpm correto considerando a posição
+    const cpmIndex = Math.round((level - 1) * 2);
+    const cpm = cpms[cpmIndex];
     const cp = Math.floor(((baseStats.atk + ivs.atk) *
         Math.sqrt(baseStats.def + ivs.def) *
         Math.sqrt(baseStats.hp + ivs.hp) *
         cpm ** 2) / 10);
     return cp;
 }
+
 
 function generatePokemonListItem(pokemon) {
     // Definir gradiente de cores com base nos tipos
