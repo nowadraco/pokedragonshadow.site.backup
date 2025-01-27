@@ -1988,6 +1988,20 @@
 "tipo2": "Sombrio"
 },
 {
+"id": 248,
+"nome": "Mega Tyranitar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm248.fMEGA.icon.png",
+"tipo1": "Pedra",
+"tipo2": "Sombrio"
+},
+{
+"id": 248,
+"nome": "Tyranitar",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_248_00.png",
+"tipo1": "Pedra",
+"tipo2": "Sombrio"
+},
+{
 "id": 249,
 "nome": "Lugia",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_249_00.png",
@@ -3214,8 +3228,22 @@
 },
 {
 "id": 412,
-"nome": "Burmy",
+"nome": "Burmy Manto Vegetal",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_412_11.png",
+"tipo1": "Inseto",
+"tipo2": "null"
+},
+{
+"id": 412,
+"nome": "Burmy Manto Arenoso",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_412_12.png",
+"tipo1": "Inseto",
+"tipo2": "null"
+},
+{
+"id": 412,
+"nome": "Burmy Manto de Lixo",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/pokemon_icon_412_13.png",
 "tipo1": "Inseto",
 "tipo2": "null"
 },
@@ -5174,8 +5202,36 @@
 },
 {
 "id": 669,
-"nome": "Flabébé",
+"nome": "Flabébé de Flor Vermelha",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm669.fRED.icon.png",
+"tipo1": "Fada",
+"tipo2": "null"
+},
+{
+"id": 669,
+"nome": "Flabébé de Flor Azul",
 "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm669.fBLUE.icon.png",
+"tipo1": "Fada",
+"tipo2": "null"
+},
+{
+"id": 669,
+"nome": "Flabébé de Flor Amarela",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm669.fYELLOW.icon.png",
+"tipo1": "Fada",
+"tipo2": "null"
+},
+{
+"id": 669,
+"nome": "Flabébé Flor Branca",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm669.fWHITE.icon.png",
+"tipo1": "Fada",
+"tipo2": "null"
+},
+{
+"id": 669,
+"nome": "Flabébé Flor Laranja",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm669.fORANGE.icon.png",
 "tipo1": "Fada",
 "tipo2": "null"
 },
@@ -6854,8 +6910,8 @@
 },
 {
 "id": 905,
-"nome": "Enamorus",
-"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm905.icon.png",
+"nome": "Enamorus Forma Materializada",
+"img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm905.fINCARNATE.icon.png",
 "tipo1": "Fada",
 "tipo2": "Voador"
 },
