@@ -54,7 +54,7 @@ function getWeatherIcon(tipo) {
     switch (tipo.toLowerCase()) {
         case 'planta':
         case 'fogo':
-        case 'terra':
+        case 'terrestre':
             return 'https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/c0997c494b393703889910d2a287f5533131d707/src/imagens/clima/ensolarado.png';
         case 'água':
         case 'elétrico':
