@@ -19450,6 +19450,37 @@
   },
   {
     "dex": 308,
+    "nome": "Mega Medicham",
+    "idNome": "medicham",
+    "statusBase": {
+      "atk": 121,
+      "def": 152,
+      "hp": 155
+    },
+    "tipos": [
+      "Lutador",
+      "Psíquico"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "DYNAMIC_PUNCH",
+      "ICE_PUNCH",
+      "Psíquico",
+      "POWER_UP_PUNCH"
+    ],
+    "buddyDistancia": 3,
+    "custoTerceiroMove": 50000,
+    "familia": {
+      "id": "FAMILIA_MEDITITE",
+      "parente": "meditite"
+    },
+    "img": "https://raw.githubusercontent.com/nowadraco/pogo_assets/refs/heads/master/Images/Pokemon%20-%20256x256/Addressable%20Assets/pm308.fMEGA.icon.png"
+  },
+  {
+    "dex": 308,
     "nome": "Medicham (Mega)",
     "idNome": "medicham_mega",
     "statusBase": {
