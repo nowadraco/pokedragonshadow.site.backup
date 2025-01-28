@@ -83,7 +83,6 @@ function getWeatherIcon(tipo) {
 }
 
 function calculateCP(baseStats, ivs, level) {
-    // Ajuste para selecionar o cpm correto considerando a posição
     const cpmIndex = Math.round((level - 1) * 2);
     const cpm = cpms[cpmIndex];
     const cp = Math.floor(((baseStats.atk + ivs.atk) *
@@ -93,13 +92,18 @@ function calculateCP(baseStats, ivs, level) {
     return cp;
 }
 
-
 function generatePokemonListItem(pokemon) {
-    // Definir gradiente de cores com base nos tipos
-    const typeColors = pokemon.tipos.map(tipo => getTypeColor(tipo));
-    const gradientBackground = `linear-gradient(to right, ${typeColors.join(', ')})`;
+    // Filtrar valores 'null' como string no array tipos
+    const validTipos = pokemon.tipos.filter(tipo => tipo !== "null");
+    const typeColors = validTipos.map(tipo => getTypeColor(tipo));
+    
+    let gradientBackground;
+    if (typeColors.length === 1) {
+        gradientBackground = typeColors[0]; // Usar a cor do único tipo válido
+    } else {
+        gradientBackground = `linear-gradient(to right, ${typeColors.join(', ')})`;
+    }
 
-    // Cálculo de CP para diferentes IVs e níveis
     const baseStats = pokemon.statusBase;
     const cpInfo = {
         normal: calculateCP(baseStats, { atk: 10, def: 10, hp: 10 }, 20),
@@ -110,17 +114,15 @@ function generatePokemonListItem(pokemon) {
         perfect: calculateCP(baseStats, { atk: 15, def: 15, hp: 15 }, 25)
     };
 
-    // Gerar ícones de tipos
-    const typeIcons = pokemon.tipos.map(tipo =>
+    const typeIcons = validTipos.map(tipo =>
         `<img src="${getTypeIcon(tipo)}" alt="${tipo}">`
     ).join('');
 
-    // Gerar ícones de clima
-    const weatherIcons = pokemon.tipos.map(tipo =>
+    const weatherIcons = validTipos.map(tipo =>
         `<img class="clima-boost" src="${getWeatherIcon(tipo)}">`
     ).join('');
 
-    return `<li class="Selvagem ${pokemon.tipos.map(t => t.toLowerCase()).join(' ')}" 
+    return `<li class="Selvagem ${validTipos.map(t => t.toLowerCase()).join(' ')}" 
                style="background: ${gradientBackground};">
         <img class="imgSelvagem" src="${pokemon.img}" alt="${pokemon.nome}"> 
         ${pokemon.nome}
@@ -133,28 +135,55 @@ function generatePokemonListItem(pokemon) {
     </li>`;
 }
 
-// Função para buscar e processar o JSON
-async function fetchAndGeneratePokemonList() {
+async function processSpecificPokemonList() {
     try {
+        // Buscar o JSON com todos os Pokémon
         const response = await fetch('https://raw.githubusercontent.com/nowadraco/pokedragonshadow.site/refs/heads/main/src/json_files/output.json');
-        const pokemonList = await response.json();
+        const allPokemon = await response.json();
 
-        // Gerar lista de Pokémon
-        const pokemonListHTML = pokemonList.map(pokemon => generatePokemonListItem(pokemon)).join('');
+        // Pegar TODAS as listas de Pokémon do HTML
+        const pokemonLists = document.querySelectorAll('.pokemon-list');
+        
+        // Processar cada lista individualmente
+        pokemonLists.forEach(async (pokemonListElement) => {
+            // Pegar os nomes dos Pokémon desta lista específica
+            const pokemonNames = Array.from(pokemonListElement.getElementsByTagName('li'))
+                .map(li => {
+                    // Remove o asterisco e "de Hisui" do nome para comparação
+                    return li.textContent
+                        .replace('*', '')
+                        .replace(' de Hisui', '')
+                        .replace('Mega ', '')
+                        .trim();
+                });
 
-        // Criar elemento de lista
-        const listElement = document.createElement('ul');
-        listElement.className = 'selvagens pokemon-list';
-        listElement.innerHTML = pokemonListHTML;
+            // Filtrar apenas os Pokémon que estão nesta lista específica
+            const filteredPokemon = allPokemon.filter(pokemon => {
+                // Limpa o nome do Pokémon do JSON para comparação
+                const cleanPokemonName = pokemon.nome
+                    .replace(' de Hisui', '')
+                    .replace('Mega ', '')
+                    .trim();
+                return pokemonNames.includes(cleanPokemonName);
+            });
 
-        // Adicionar à página (ou substitua pelo seletor correto)
-        document.body.appendChild(listElement);
+            // Gerar o HTML para os Pokémon filtrados desta lista
+            const pokemonListHTML = filteredPokemon.map(pokemon => 
+                generatePokemonListItem(pokemon)
+            ).join('');
 
-        return listElement;
+            // Substituir o conteúdo desta lista específica
+            pokemonListElement.innerHTML = pokemonListHTML;
+            // Manter a classe original e adicionar 'selvagens' se não existir
+            if (!pokemonListElement.classList.contains('selvagens')) {
+                pokemonListElement.classList.add('selvagens');
+            }
+        });
+
     } catch (error) {
-        console.error('Erro ao buscar ou processar o JSON:', error);
+        console.error('Erro ao processar as listas de Pokémon:', error);
     }
 }
 
-// Executar a busca e geração quando o script for carregado
-fetchAndGeneratePokemonList();
+// Executar o processamento quando o script for carregado
+processSpecificPokemonList();
